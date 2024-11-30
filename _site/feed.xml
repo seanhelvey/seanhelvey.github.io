@@ -4,11 +4,28 @@
     <title>Sean Helvey</title>
     <description>My first word was cheese
 </description>
-    <link>http://localhost:4000/seanhelveydotcom/</link>
-    <atom:link href="http://localhost:4000/seanhelveydotcom/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Nov 2024 16:49:03 -0800</pubDate>
-    <lastBuildDate>Fri, 29 Nov 2024 16:49:03 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Nov 2024 09:07:11 -0800</pubDate>
+    <lastBuildDate>Sat, 30 Nov 2024 09:07:11 -0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Learning in Public</title>
+        <description>&lt;p&gt;When I started this blog in 2013 I used WordPress to avoid &lt;a href=&quot;https://www.seanhelvey.com/reinventing-the-wheel/&quot;&gt;reinventing the wheel&lt;/a&gt; before moving over to Jekyll in 2016. I never took the time to set up continuous deployment so would SSH into DreamHost (strong CamelCase theme emerging here) then pull the generated static site from a Git submodule. The added friction was just enough so that I wouldn’t post very often.&lt;/p&gt;
+
+&lt;p&gt;Now I feel super inspired by people like &lt;a href=&quot;https://www.coryzue.com/&quot;&gt;Cory Zue&lt;/a&gt; and &lt;a href=&quot;https://www.roycehaynes.com/&quot;&gt;Royce Haynes&lt;/a&gt; to be creative and express myself online more frequently. It is going to take some time though and I don’t know exactly what it will look like. A custom Django publishing platform like &lt;a href=&quot;https://simonwillison.net/&quot;&gt;Simon Willison&lt;/a&gt;? Zines or a Hugo site like &lt;a href=&quot;https://jvns.ca/&quot;&gt;Julia Evans&lt;/a&gt;? For now I have begun migrating old projects off DreamHost and am using GitHub Pages to host the Jekyll site, but this is just temporary to reduce friction and get the ball rolling.&lt;/p&gt;
+
+&lt;p&gt;I am really curious about different mediums beyond RSS but want to keep the overhead of publishing newsletters and editing video / audio sustainable. What are the best free and easy ways to create content and use AI for transcription? Another big question for me is how to segment different tags, topics, categories. I want to keep building tech community and still feel empowered to share personal life stuff. Should that all live here or be contained in different channels?&lt;/p&gt;
+
+&lt;p&gt;Come along for the journey. Let’s learn in public together!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/learning-in-public/</link>
+        <guid isPermaLink="true">http://localhost:4000/learning-in-public/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Teaching Yoga</title>
@@ -19,8 +36,8 @@
 &lt;p&gt;I had been “doing yoga” on and off for over 20 years at various gyms, but becoming more involved at &lt;a href=&quot;https://www.yogasoup.com/&quot; target=&quot;_blank&quot;&gt;Yoga Soup&lt;/a&gt; during this period gave me a new perspective on what a yoga studio could be. The people and offerings like breathwork and ecstatic dance changed my life completely. After volunteering as a Shine Ambassador for years, I finally completed a 200 hour teacher training. If you look back at my last post from 2019, you can see where my interest in yoga really began to take shape, and now in 2023 it has come full circle in its first complete revolution.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Oct 2023 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/teaching-yoga/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/teaching-yoga/</guid>
+        <link>http://localhost:4000/teaching-yoga/</link>
+        <guid isPermaLink="true">http://localhost:4000/teaching-yoga/</guid>
         
         
       </item>
@@ -104,8 +121,8 @@
 &lt;h4 id=&quot;sutra-34-we-can-achieve-independence-and-rest-in-our-own-true-nature-if-we-allow-our-body-and-mind-to-function-without-fixation-all-of-this-yoga-is-actually-needed-by-the-ego-and-done-with-the-mind-and-body-you-can-let-the-ego-mind-and-body-rest-in-peace-though-reflecting-your-true-higher-self-learn-to-lead-a-dedicated-life-serving-others&quot;&gt;Sutra #34 We can achieve Independence and rest in our own true nature if we allow our body and mind to function without fixation. All of this yoga is actually needed by the ego and done with the mind and body. You can let the ego, mind, and body rest in peace though, reflecting your true higher Self. Learn to lead a dedicated life serving others.&lt;/h4&gt;
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/notes-on-the-yoga-sutras-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/notes-on-the-yoga-sutras-copy/</guid>
+        <link>http://localhost:4000/notes-on-the-yoga-sutras/</link>
+        <guid isPermaLink="true">http://localhost:4000/notes-on-the-yoga-sutras/</guid>
         
         
       </item>
@@ -131,8 +148,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 07 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/rails-without-sudo/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/rails-without-sudo/</guid>
+        <link>http://localhost:4000/rails-without-sudo/</link>
+        <guid isPermaLink="true">http://localhost:4000/rails-without-sudo/</guid>
         
         
       </item>
@@ -191,8 +208,8 @@ buttonES6.addEventListener(&quot;click&quot;, person.makeOlderES6);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/understanding-this-in-javascript/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/understanding-this-in-javascript/</guid>
+        <link>http://localhost:4000/understanding-this-in-javascript/</link>
+        <guid isPermaLink="true">http://localhost:4000/understanding-this-in-javascript/</guid>
         
         
       </item>
@@ -230,8 +247,8 @@ A Rust toy back-end using the web framework Rocket.&lt;/p&gt;
 &lt;p&gt;Please feel free to follow along as I tinker with these projects! Huge thanks to &lt;a href=&quot;https://github.com/bgard6977?tab=followers&quot;&gt;Brent Gardner&lt;/a&gt; for pairing with me on this and &lt;a href=&quot;https://github.com/dam5s&quot;&gt;Damien LeBerrigaud&lt;/a&gt; for all of the inspiration.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/playing-with-rust-and-kotlin/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/playing-with-rust-and-kotlin/</guid>
+        <link>http://localhost:4000/playing-with-rust-and-kotlin/</link>
+        <guid isPermaLink="true">http://localhost:4000/playing-with-rust-and-kotlin/</guid>
         
         
       </item>
@@ -284,8 +301,8 @@ A Rust toy back-end using the web framework Rocket.&lt;/p&gt;
 &lt;p&gt;To the supportive Elm community, our local &lt;a href=&quot;https://www.meetup.com/Front-range-elm/&quot;&gt;Front Range Elm Meetup&lt;/a&gt;, Pivotal Labs for sponsoring that group, and the &lt;a href=&quot;https://www.meetup.com/Northern-Colorado-Value-Investing-Meetup/&quot;&gt;Northern Colorado Value Investing Meetup&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/next-iteration-valunicorn-calculator/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/next-iteration-valunicorn-calculator/</guid>
+        <link>http://localhost:4000/next-iteration-valunicorn-calculator/</link>
+        <guid isPermaLink="true">http://localhost:4000/next-iteration-valunicorn-calculator/</guid>
         
         
       </item>
@@ -347,8 +364,8 @@ A Rust toy back-end using the web framework Rocket.&lt;/p&gt;
 &lt;p&gt;That should do it. Don’t forget to take a look at your GitHub repo along the way and make sure your most recent changes made it up there. That may sound obvious, but it is something that can easily be overlooked in the heat of the moment. Hope this helps!&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/ejected-create-react-app-not-working-on-heroku/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/ejected-create-react-app-not-working-on-heroku/</guid>
+        <link>http://localhost:4000/ejected-create-react-app-not-working-on-heroku/</link>
+        <guid isPermaLink="true">http://localhost:4000/ejected-create-react-app-not-working-on-heroku/</guid>
         
         
       </item>
@@ -476,8 +493,8 @@ view model =
 &lt;p&gt;So this is the end of our three part series of blog posts on “Elm in React”. I learned a ton going through this and would appreciate any feedback you have. Hopefully it helps someone gradually incorporate Elm into an existing JavaScript or React application. Thanks for tuning in!&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/elm-in-react-part-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/elm-in-react-part-3/</guid>
+        <link>http://localhost:4000/elm-in-react-part-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/elm-in-react-part-3/</guid>
         
         
       </item>
@@ -543,86 +560,8 @@ main =
 &lt;p&gt;If you have surrendered to The Elm Architecture (step #1) and tried translating the view from JSX to Elm (step #2) then you should be able to follow the friendly compiler error messages (step #3) as they shepherd you through any confusion from the Elm guide, docs, or other code samples and blog posts you are referring to. In &lt;a href=&quot;http://www.seanhelvey.com/elm-in-react-part-3/&quot;&gt;the next post&lt;/a&gt; we will illustrate how to do this using the model and update functions along with ports to finish the “add todo” functionality.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/elm-in-react-part-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/elm-in-react-part-2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Elm in React Part #1</title>
-        <description>&lt;p&gt;This post will expand upon &lt;a href=&quot;http://elm-lang.org/blog/how-to-use-elm-at-work&quot;&gt;Evan’s post&lt;/a&gt; describing how to use Elm with React. I’ve been using &lt;a href=&quot;https://github.com/seanhelvey/react-intro-exercise&quot;&gt;this todo list example&lt;/a&gt; to teach react for a while now (thanks &lt;a href=&quot;https://twitter.com/chadwithuhc&quot;&gt;Chad&lt;/a&gt;!) so I thought it would make sense to use the same example here. Checkout the Elm branch of the todo list repo linked above if you want to follow along. You can see the whole commit diff for this blog post &lt;a href=&quot;https://github.com/seanhelvey/react-intro-exercise/commit/2fcb2ddb9db4b3bb655312a4df1b5dc2d1c88a6d&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We need to do a few things to add Elm into our react app:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Npm install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elm-webpack-loader&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-elm-components&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Update Webpack config&lt;/li&gt;
-  &lt;li&gt;Install Elm packages (and add elm-stuff to .gitignore)&lt;/li&gt;
-  &lt;li&gt;Replace React component with Elm&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;sean-blog-image&quot;&gt;
-  &lt;figure&gt;
-    &lt;a href=&quot;/assets/images/seanhelvey/2018/todo.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;todo&quot; class=&quot; lazyloaded&quot; src=&quot;/assets/images/seanhelvey/2018/todo.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;figcaption&gt;
-    A simple todo list
-  &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;step-1---npm-install&quot;&gt;Step 1 - Npm install&lt;/h3&gt;
-&lt;p&gt;Step one above doesn’t need explaining, but I’ll describe steps 2-4 in more detail.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-2---update-webpack-config&quot;&gt;Step 2 - Update Webpack config&lt;/h3&gt;
-
-&lt;div class=&quot;sean-blog-image&quot;&gt;
-  &lt;figure&gt;
-    &lt;a href=&quot;/assets/images/seanhelvey/2018/webpack.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;webpack&quot; class=&quot; lazyloaded&quot; src=&quot;/assets/images/seanhelvey/2018/webpack.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;figcaption&gt;
-    Add the elm-webpack-loader and noParse lines. Note that the syntax has changed so that we must specify &quot;elm-webpack-loader&quot; rather than just &quot;elm-webpack&quot; as Evan and Richard had in their example.
-  &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;step-3---install-elm-packages&quot;&gt;Step 3 - Install Elm packages&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://guide.elm-lang.org/install.html&quot;&gt;Install elm&lt;/a&gt; if you haven’t already, and then run the following two commands:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elm-package install elm-lang/core
-elm-package install elm-lang/html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You will want to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elm-stuff&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; at this point.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-4---replace-react-component-with-elm&quot;&gt;Step 4 - Replace React component with Elm&lt;/h3&gt;
-&lt;p&gt;Now we can easily replace the React component in our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.js&lt;/code&gt; file with Elm:&lt;/p&gt;
-
-&lt;div class=&quot;sean-blog-image&quot;&gt;
-  &lt;figure&gt;
-    &lt;a href=&quot;/assets/images/seanhelvey/2018/app.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;app&quot; class=&quot; lazyloaded&quot; src=&quot;/assets/images/seanhelvey/2018/app.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;figcaption&gt;
-    Replace the React component in `app.js` with Elm
-  &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;sean-blog-image&quot;&gt;
-  &lt;figure&gt;
-    &lt;a href=&quot;/assets/images/seanhelvey/2018/addCard.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;addCard&quot; class=&quot; lazyloaded&quot; src=&quot;/assets/images/seanhelvey/2018/addCard.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;figcaption&gt;
-    Our Elm file is hello world for now
-  &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We will replace the react view with Elm in &lt;a href=&quot;http://www.seanhelvey.com/elm-in-react-part-2/&quot;&gt;part #2&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/seanhelveydotcom/elm-in-react-part-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/seanhelveydotcom/elm-in-react-part-1/</guid>
+        <link>http://localhost:4000/elm-in-react-part-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/elm-in-react-part-2/</guid>
         
         
       </item>
