@@ -13,7 +13,7 @@ I just got back from a Transformational Breath Essentials 6-Day Seminar at <a hr
   </figure>
 </div>
 
-Relationships can be challenging for all of us and I've explored many different modalities to improve my interpersonal skills. "How to Win Friends and Influence People" helped me as an analytical college kid, and more recently Non-Violent Communication (NVC) has shaped my style of relating. A couple of years ago though I worked through  <a href="https://www.goodreads.com/book/show/61315.The_Presence_Process">The Presence Process</a> with a local book group and more recently Damian Gallagher recommended <a href="https://www.goodreads.com/book/show/408265.The_Power_of_Focusing">The Power of Focusing</a> heading into this retreat. These ideas set the stage for me seeing the world outside through a the lens of sensations and emotions in the body.
+Relationships can be challenging for all of us and I've explored many different modalities to improve my interpersonal skills. "How to Win Friends and Influence People" helped me as an analytical college kid, and more recently Non-Violent Communication (NVC) has shaped my style of relating. A couple of years ago though I worked through  <a href="https://www.goodreads.com/book/show/61315.The_Presence_Process">The Presence Process</a> with a local book group and more recently Damian Gallagher recommended <a href="https://www.goodreads.com/book/show/408265.The_Power_of_Focusing">The Power of Focusing</a> heading into this retreat. These ideas set the stage for me seeing the world outside through the lens of sensations and emotions in the body.
 
 <div class="sean-blog-image">
   <figure>
