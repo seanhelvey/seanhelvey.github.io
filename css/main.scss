@@ -60,12 +60,27 @@ $on-laptop:        800px;
 
 .sean-blog-image {
   text-align: center;
-  margin: 5%;
+  margin: 2em 0;
+
+  img {
+    max-width: 420px;
+    max-height: 520px;
+    width: auto;
+    height: auto;
+  }
 }
 
 .sean-index-image {
     text-align: center;
-    margin: 0% 25%;
+    margin: 1.5em auto 0;
+
+    img {
+      width: 100%;
+      max-width: 360px;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center 30%;
+    }
   }
 
 .rounded {
@@ -75,21 +90,115 @@ $on-laptop:        800px;
 .container {
     display: flex;
     margin-top: 5%;
+    gap: 1em;
   }
-  
+
   .section {
     flex: 1; /*grow*/
     text-align: center;
   }
-  
+
+  /* even out mismatched logo heights in the desktop row */
+  .container:not(.work-screens) .section img {
+    max-height: 110px;
+  }
+
   @media (max-width: 768px) { /*breakpoint*/
     .container {
       flex-direction: column;
     }
 
+    /* single column on mobile has no row to balance, so let logos go full size */
+    .container:not(.work-screens) .section img {
+      max-height: none;
+    }
+
     .sean-index-image {
         text-align: center;
-        margin: 5% 15%;
+        margin: 1em auto 0;
       }
 
     }
+
+.hero {
+    text-align: center;
+    margin: 2em 0 1.5em;
+  }
+
+.thesis {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+    max-width: 600px;
+    margin: 0 auto 0.8em;
+  }
+
+.hero-framing {
+    font-size: 16px;
+    color: $grey-color;
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+.about-arc {
+    max-width: 640px;
+
+    p {
+      margin-bottom: 1.5em;
+      line-height: 1.7;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 2em 0 0.6em;
+    }
+
+    ul {
+      line-height: 1.8;
+      margin-bottom: 0.5em;
+    }
+  }
+
+.section {
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0 0 0.15em;
+    }
+
+    h2 a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    p {
+      font-size: 13px;
+      color: $grey-color;
+      margin: 0 0 0.6em;
+    }
+  }
+
+.work-screens .section img {
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+
+.testimonial {
+    border-left: 3px solid #ddd;
+    margin: 1.5em 0;
+    padding: 0.2em 0 0.2em 1.2em;
+    font-style: italic;
+    color: #555;
+    line-height: 1.6;
+
+    cite {
+      display: block;
+      margin-top: 0.6em;
+      font-style: normal;
+      font-size: 13px;
+      color: $grey-color;
+    }
+  }

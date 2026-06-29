@@ -7,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <ul class="contact-list">
-          <li>© {{ 'now' | date: "%Y" }} Sean Helvey</li>
+          <li>&copy; {{ 'now' | date: "%Y" }} Sean Helvey</li>
         </ul>
       </div>
       <div class="footer-col">
@@ -20,15 +20,6 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-      <div class="footer-col">
-        <ul class="contact-list">
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
         </ul>
