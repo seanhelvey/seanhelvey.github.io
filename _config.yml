@@ -7,11 +7,11 @@
 
 # Site settings
 title: Sean Helvey
-email: sean.helvey@gmail.com
+email: me@seanhelvey.com
 description: > # this means to ignore newlines until "baseurl:"
   My first word was cheese
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://seanhelvey.com" # the base hostname & protocol for your site
+url: "https://seanhelvey.com" # the base hostname & protocol for your site
 github_username:  seanhelvey
 
 # Build settings
