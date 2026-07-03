@@ -21,7 +21,7 @@ Over the course of the last week I attended both PyCon in Montreal and <a title=
   </p>
 </div>
 
-While my inner nerd may be in a state of philosophical turmoil, that doesn&#8217;t change the fact that PyCon was awesome. Special thanks to Nick Lang (<a title="@fxdgear" href="https://twitter.com/fxdgear" target="_blank">@fxdgear</a>) and <a title="Piper Merriam" href="http://simpleenergy.com/team/piper/" target="_blank">Piper Merriam</a> for giving me a glimpse into their world as Django developers. Not to mention the leadership at <a title="Simple Energy" href="http://simpleenergy.com/" target="_blank">Simple Energy</a> for sponsoring the event and sending us out there.
+While my inner nerd may be in a state of philosophical turmoil, that doesn&#8217;t change the fact that PyCon was awesome. Special thanks to Nick Lang (<a title="@fxdgear" href="https://twitter.com/fxdgear" target="_blank">@fxdgear</a>) and Piper Merriam for giving me a glimpse into their world as Django developers. Not to mention the leadership at <a title="Simple Energy" href="http://simpleenergy.com/" target="_blank">Simple Energy</a> for sponsoring the event and sending us out there.
 
 My favorite talk was &#8220;All Your Ducks In A Row: Data Structures in the Standard Library and Beyond&#8221; by <a title="Brandon Rhodes" href="https://twitter.com/brandon_rhodes" target="_blank">Brandon Rhodes</a><a title="@brandon_rhodes" href="https://twitter.com/brandon_rhodes" target="_blank">,</a> but Gary Bernhardt also delivered <a title="The Birth & Death of JavaScript" href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript" target="_blank">The Birth & Death of JavaScript</a>, which has definitely caused a lot of buzz over the last couple of weeks.
 
@@ -38,4 +38,4 @@ I was blown away by the keynote from <a title="Jessica McKellar" href="http://py
   </p>
 </div>
 
-Python and PyCon will always have a special place in my heart. I understand now why my colleagues are so passionate about the community there. However, I have other co-workers who are equally ardent about functional programming. The comments that Guido made about static typing and compilers were funny, but also bothersome in a way. I tagged along to LamdaConf the following weekend to <a title="explore this a little bit further" href="http://www.seanhelvey.com/?p=596" target="_blank">explore this a little bit further</a>.
+Python and PyCon will always have a special place in my heart. I understand now why my colleagues are so passionate about the community there. However, I have other co-workers who are equally ardent about functional programming. The comments that Guido made about static typing and compilers were funny, but also bothersome in a way. I tagged along to LamdaConf the following weekend to <a title="explore this a little bit further" href="/a-tale-of-two-conferences-pycon-vs-lambaconf-part-2/" target="_blank">explore this a little bit further</a>.

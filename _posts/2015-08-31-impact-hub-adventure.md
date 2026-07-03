@@ -29,7 +29,7 @@ I&#8217;ve decided to spend the month of September exploring other Impact Hubs. 
   </p>
 </div>
 
-I&#8217;ll be starting out in Stockholm, passing through Berlin, and finishing in San Sebastian. There will be other stops along the way too! (Munich, Prague, Vienna..?) Let me know if you or any of your nerd friends will be attending <a href="http://nordicjs.com/" target="_blank">Nordic.js</a> or <a href="http://rejectjs.org/" target="_blank">Reject.js</a>, as I&#8217;ll be going to both JavaScript conferences.
+I&#8217;ll be starting out in Stockholm, passing through Berlin, and finishing in San Sebastian. There will be other stops along the way too! (Munich, Prague, Vienna..?) Let me know if you or any of your nerd friends will be attending Nordic.js or <a href="http://rejectjs.org/" target="_blank">Reject.js</a>, as I&#8217;ll be going to both JavaScript conferences.
 
 <div id="attachment_915" style="width: 310px" class="wp-caption aligncenter">
   <a href="/assets/images/seanhelvey/2015/08/w_greg.jpg"><img src="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg" alt="Impact Hub Boulder" width="300" height="225" class="size-medium wp-image-915" srcset="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg 300w, /assets/images/seanhelvey/2015/08/w_greg.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
@@ -39,6 +39,6 @@ I&#8217;ll be starting out in Stockholm, passing through Berlin, and finishing i
   </p>
 </div>
 
-The trip was inspired by <a href="http://www.impacthub.net/2014/06/14/impact-hub-global-network-effect/" target="_blank">this fantastic post</a> from Brian Howe and conversations with Matthias Reisinger, who is leading the effort on the new passport program. Greg Berry, Shannon Sunderland, and Lindsey Brown have encouraged and supported me. Thanks to them, I&#8217;ll have Impact Hub Boulder gifts and plenty of good vibes to bring with me on my journey.
+The trip was inspired by this fantastic post from Brian Howe and conversations with Matthias Reisinger, who is leading the effort on the new passport program. Greg Berry, Shannon Sunderland, and Lindsey Brown have encouraged and supported me. Thanks to them, I&#8217;ll have Impact Hub Boulder gifts and plenty of good vibes to bring with me on my journey.
 
 Please come and say hello if you see me at your hub! Stay tuned for more posts.

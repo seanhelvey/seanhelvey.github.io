@@ -31,4 +31,4 @@ Short to medium term it seems as if Kotlin is my best bet, due to the language f
 
 # Conclusion
 
-Please feel free to follow along as I tinker with these projects! Huge thanks to [Brent Gardner](https://github.com/bgard6977?tab=followers) for pairing with me on this and [Damien LeBerrigaud](https://github.com/dam5s) for all of the inspiration.
+Please feel free to follow along as I tinker with these projects! Huge thanks to Brent Gardner for pairing with me on this and [Damien LeBerrigaud](https://github.com/dam5s) for all of the inspiration.

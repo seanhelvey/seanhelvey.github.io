@@ -7,12 +7,11 @@ permalink: /:title/
 
 > "The goal is two-fold: level-up my Elm skills by continuing to maintain and develop a more complex application and add features to a project which people can use to invest sustainably."
 
-I've been working on the value investing newsletter [Valunicorn](http://www.valunicorn.me/) since January of 2015. I began developing a [dividend calculator](http://www.valunicorn.me/calculator.html) during 2016 using the programming language Elm. Currently you can use the calculator to see what $1,000 would be worth assuming dividend growth stays constant and dividends are reinvested over a period of time.
+I've been working on the value investing newsletter Valunicorn since January of 2015. I began developing a dividend calculator during 2016 using the programming language Elm. Currently you can use the calculator to see what $1,000 would be worth assuming dividend growth stays constant and dividends are reinvested over a period of time.
 
 <div class="sean-blog-image">
   <figure>
-    <a href="http://www.valunicorn.me/calculator.html" target="_blank"><img alt="todo" class=" lazyloaded" src="/assets/images/seanhelvey/2018/calculator.png">
-    </a>
+    <img alt="The Valunicorn Calculator" class=" lazyloaded" src="/assets/images/seanhelvey/2018/calculator.png">
   <figcaption>
     The Valunicorn Calculator
   </figcaption>

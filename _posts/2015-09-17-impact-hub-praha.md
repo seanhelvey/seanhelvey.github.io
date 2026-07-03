@@ -30,12 +30,12 @@ I was blown away by the sheer size of the co-working area. It&#8217;s very large
 
 ### Tips from Thomas
 
-  * Healthy food <a href="http://www.anantasesa.cz/kontakt" target="_blank">http://www.anantasesa.cz/kontakt</a>
-  * Pub with show <a href="http://www.krcmabrabant.cz/kontakt_en.php" target="_blank">http://www.krcmabrabant.cz/kontakt_en.php</a>
+  * Healthy food anantasesa.cz
+  * Pub with show krcmabrabant.cz
   * Train models / pub <a href="http://www.vytopna.cz/" target="_blank">http://www.vytopna.cz/</a>
   * Tap your own beer <a href="http://www.thepub.cz/?lng=en" target="_blank">http://www.thepub.cz/?lng=en</a>
   * 30 different types of beer <a href="http://www.praguebeermuseum.com/" target="_blank">http://www.praguebeermuseum.com/</a>
-  * Beautiful view of the city <a href="http://towerpark.cz/en/" target="_blank">http://towerpark.cz/en/</a>
+  * Beautiful view of the city towerpark.cz
 
 ### Tips from Danka
 

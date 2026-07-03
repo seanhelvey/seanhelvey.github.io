@@ -20,7 +20,7 @@ Functional programming is amazing! Huge thanks to the professors, colleagues, an
 
 Play with a passion project
 --------------------------
-Do it! Scratch your own itch. Save the world. Whatever. Just start building *something*. I personally tend to get bogged down working through a book of exercises and that has been a huge challenge for me while trying to learn Haskell. I've had better success with Elm, because I created [a calculator](http://www.valunicorn.me/) that I can actually see and use.
+Do it! Scratch your own itch. Save the world. Whatever. Just start building *something*. I personally tend to get bogged down working through a book of exercises and that has been a huge challenge for me while trying to learn Haskell. I've had better success with Elm, because I created a calculator that I can actually see and use.
 
 Ask the right questions
 --------------------------

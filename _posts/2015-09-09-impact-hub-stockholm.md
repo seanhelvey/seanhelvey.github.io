@@ -29,7 +29,7 @@ Travel to a place where you know nobody and instantly become part of the communi
   </p>
 </div>
 
-The space here is incredible and they have interesting ways of getting members involved with leadership. Their &#8220;Community Hosts&#8221; volunteer one day per week to earn their membership and they have &#8220;Member Hosts&#8221; who provide expertise in a particular area such as marketing or IT. They also have <a href="http://stockholm.impacthub.net/member-clubs/" target="_blank">member lead events</a> like climbing and running groups each week.
+The space here is incredible and they have interesting ways of getting members involved with leadership. Their &#8220;Community Hosts&#8221; volunteer one day per week to earn their membership and they have &#8220;Member Hosts&#8221; who provide expertise in a particular area such as marketing or IT. They also have member lead events like climbing and running groups each week.
 
 ### What makes Impact Hub Stockholm unique?
 

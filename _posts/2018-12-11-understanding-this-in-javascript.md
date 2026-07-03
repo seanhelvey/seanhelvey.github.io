@@ -5,7 +5,7 @@ date:  2018-12-11
 permalink: /:title/
 ---
 
-Here is a snippet and [link to my favorite example](http://dev.seanhelvey.com/this/this.html) that you can use to understand `this` in JavaScript. Make sure you have the console open and read the logs as you click on the buttons. The code is [here in GitHub](https://github.com/seanhelvey/snippets/tree/master/this) as well.
+Here is a snippet that you can use to understand `this` in JavaScript. Make sure you have the console open and read the logs as you click on the buttons. The code is [here in GitHub](https://github.com/seanhelvey/snippets/tree/master/this) as well.
 
 <div class="sean-blog-image">
   <figure>

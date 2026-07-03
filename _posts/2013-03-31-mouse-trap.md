@@ -10,10 +10,10 @@ categories:
   - Technology
   - 'Web &amp; Mobile'
 ---
-Inspired by Quick Left&#8217;s <a title="Rube Goldberg Hackfest" href="http://quickleft.com/blog/virtual-rube-goldberg-machines-and-yolo" target="_blank">Rube Goldberg Hackfest</a>, I set out to build a fancy web application version of the board game &#8220;Mouse Trap&#8221;. This involved setting up a web server using Node.js and Express, hitting the server with a simple iOS app, polling said web server using client side JavaScript, cropping images with Gimp, and working with jQuery.
+Inspired by Quick Left&#8217;s Rube Goldberg Hackfest, I set out to build a fancy web application version of the board game &#8220;Mouse Trap&#8221;. This involved setting up a web server using Node.js and Express, hitting the server with a simple iOS app, polling said web server using client side JavaScript, cropping images with Gimp, and working with jQuery.
 
 <p style="text-align: left;">
-  iOS <a title="source" href="https://bitbucket.org/shelvey/mousetrap" target="_blank">source</a> &#8211; Includes HTTP request and swipe gestures. Node.js w/ Express <a title="source" href="https://bitbucket.org/shelvey/node-indicator" target="_blank">source</a> &#8211; Processes requests and maintains state. HTML, CSS, JavaScript, jQuery <a title="source" href="https://bitbucket.org/shelvey/mousetrapweb" target="_blank">source</a> &#8211; Polling server and doing animation. Hosted <a title="here" href="http://www.dev.seanhelvey.com/mouseTrapWeb/fling/" target="_blank">here</a> (fling the knife from the cutting board) and <a title="here" href="http://www.dev.seanhelvey.com/mouseTrapWeb/catch/" target="_blank">here</a> (trapping the mouse). You can hit the server <a title="here" href="http://stormy-chamber-1319.herokuapp.com/hit" target="_blank">here</a> to start the entire process. If something isn&#8217;t working, try resetting the state of the server <a title="here" href="http://stormy-chamber-1319.herokuapp.com/flush" target="_blank">here</a> and refreshing both pages.
+  iOS <a title="source" href="https://bitbucket.org/shelvey/mousetrap" target="_blank">source</a> &#8211; Includes HTTP request and swipe gestures. Node.js w/ Express <a title="source" href="https://bitbucket.org/shelvey/node-indicator" target="_blank">source</a> &#8211; Processes requests and maintains state. HTML, CSS, JavaScript, jQuery <a title="source" href="https://bitbucket.org/shelvey/mousetrapweb" target="_blank">source</a> &#8211; Polling server and doing animation. The live demo is no longer online, but the source is linked above.
 </p>
 
 <p style="text-align: left;">
@@ -59,7 +59,7 @@ Responding with json is simple:
 </p>
 
 <p style="text-align: left;">
-  Most of the animation for this project was extremely simple, but I did have a hard time getting the knife to spin or rotate. I found that the CSS3 <a title="@keyframes" href="http://www.w3schools.com/css3/css3_animations.asp" target="_blank">@keyframes</a> rule was the best method here:
+  Most of the animation for this project was extremely simple, but I did have a hard time getting the knife to spin or rotate. I found that the CSS3 <a title="@keyframes" href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">@keyframes</a> rule was the best method here:
 </p>
 
 <div class="wp_syntax">

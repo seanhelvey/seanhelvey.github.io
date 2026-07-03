@@ -5,7 +5,7 @@ date:  2018-02-27-elm-in-react-part-2.md
 permalink: /:title/
 ---
 
-This is a follow-up to [Elm in React Part #1](http://www.seanhelvey.com/elm-in-react-part-1/). In the first post we replaced the "add todo" form portion of a React todo list app with "hello world" written in Elm. Now we will replace the Elm "hello world" stub with an Elm view. Checkout the Elm branch of [this todo list repo](https://github.com/seanhelvey/react-intro-exercise) if you want to follow along. In plain English these are the steps I took:
+This is a follow-up to [Elm in React Part #1](http://www.seanhelvey.com/elm-in-react-part-1/). In the first post we replaced the "add todo" form portion of a React todo list app with "hello world" written in Elm. Now we will replace the Elm "hello world" stub with an Elm view. Checkout the Elm branch of this todo list repo if you want to follow along. In plain English these are the steps I took:
 
 1. Surrender to the Elm Architecture
 2. Try to translate the view from JSX to Elm
@@ -47,7 +47,7 @@ main =
 It compiles and looks exactly like it did in the React / JSX version! Now we can add functionality to this view, which will require that we finish building out a model and update function.
 
 ### Step 2 - Try to translate the view from JSX to Elm
-You can see the finished Elm view and the React / JSX code we replaced in this diff below. The thing is that the awesome Elm compiler will ensure that you have a model and update function before you are really able to "finish" this part of the Elm application. We will cover that next in Part #3. So while you may glance at the diff here below, know that you need to flush out the rest of the Elm Architecture before "wiring up" the view. If these diffs or snippets become confusing, please take a look at the finished Elm branch of this repo [here](https://github.com/seanhelvey/react-intro-exercise/).
+You can see the finished Elm view and the React / JSX code we replaced in this diff below. The thing is that the awesome Elm compiler will ensure that you have a model and update function before you are really able to "finish" this part of the Elm application. We will cover that next in Part #3. So while you may glance at the diff here below, know that you need to flush out the rest of the Elm Architecture before "wiring up" the view. If these diffs or snippets become confusing, please take a look at the finished Elm branch of this repo.
 
 <div class="sean-blog-image">
   <figure>

@@ -12,7 +12,7 @@ categories:
 ---
 I encountered a few gotchas that I wanted to share while hacking on Node.js this weekend. The tutorials available at <a title="nodejs.org" href="http://nodejs.org/" target="_blank">nodejs.org</a> are extremely thorough and very helpful, but you may run into some of the same issues that I did when expanding from your basic &#8220;hello world&#8221; application. First we will discuss Node.js specifically and then we will move on to deployment with Heroku.
 
-There are several frameworks that can be used to build web applications with Node, such as <a title="Express.js" href="http://expressjs.com/" target="_blank">Express.js</a> and <a title="Geddy" href="http://geddyjs.org/" target="_blank">Geddy</a>. To keep things simple, we will not be using any of them here. Instead we will be building a basic fibonacci calculator that accepts and parses a GET request using nothing but Node. Assuming your parameter is named &#8220;n&#8221;, the following code can be used within the body of http.createServer to parse the GET request:
+There are several frameworks that can be used to build web applications with Node, such as <a title="Express.js" href="http://expressjs.com/" target="_blank">Express.js</a> and Geddy. To keep things simple, we will not be using any of them here. Instead we will be building a basic fibonacci calculator that accepts and parses a GET request using nothing but Node. Assuming your parameter is named &#8220;n&#8221;, the following code can be used within the body of http.createServer to parse the GET request:
 
 <div class="wp_syntax">
   <table>
@@ -91,4 +91,4 @@ When I was developing my application locally, I hard-coded a port and an IP addr
   </table>
 </div>
 
-That is it! You can see the finished product <a title="here" href="http://fathomless-citadel-7964.herokuapp.com/?n=10" target="_blank">here</a>. Try passing different parameters in the GET request to see the resulting fibonacci number. Hopefully this fills in some of the gaps between developing a &#8220;hello world&#8221; application locally with Node.js and deploying a slightly more sophisticated application on Heroku.
+That is it! Try passing different parameters in the GET request to see the resulting fibonacci number. Hopefully this fills in some of the gaps between developing a &#8220;hello world&#8221; application locally with Node.js and deploying a slightly more sophisticated application on Heroku.
