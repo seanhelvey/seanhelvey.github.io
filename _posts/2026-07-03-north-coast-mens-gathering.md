@@ -12,7 +12,7 @@ This year was my first time attending the <a href="https://www.northcoastmensgat
     <img alt="Group photo at the North Coast Men's Gathering" class="lazyloaded" src="/assets/images/seanhelvey/2026/NorthCoastMensGathering2026.JPG">
   </figure>
     <figcaption>
-      Where is Waldo (Sean)?
+      Not in the back row for once!
   </figcaption> 
 </div>
 
