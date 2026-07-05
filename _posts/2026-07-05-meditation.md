@@ -6,7 +6,7 @@ permalink: /:title/
 # published: false
 ---
 
-I've written more about <a href="/teaching-yoga/">yoga</a> than meditation, but both have been vital for my wellbeing over the years. Yoga was an easier path for me at first as an active person, since it's hard for me to sit still (and I could do it at the gym!). I'm using "meditation" here rather than Buddhism because to me it implies putting that system of beliefs into practice.
+I've written more about <a href="/teaching-yoga/">yoga</a> than meditation, but both have been vital for my well-being over the years. Yoga was an easier path for me at first as an active person, since it's hard for me to sit still (and I could do it at the gym!). I'm using "meditation" here rather than Buddhism because to me it implies putting that system of beliefs into practice.
 
 Lately I keep returning to meditation as a refuge, and I feel compelled to try some longer retreats in a few traditions over the coming months. A teacher friend told me the advice to "stop dabbling" and commit to one style really advanced their practice. I totally intend to do that, right after I explore a few more!
 
@@ -19,7 +19,7 @@ Lately I keep returning to meditation as a refuge, and I feel compelled to try s
   </figcaption> 
 </div>
 
-I went to a couple of workshops living in NYC but my practice really developed at the Shambhala Center and Insight Meditation groups in Boulder. I enjoyed the Shambhala center's open hearted vibe and structured training pathway, but felt burned learning about the controversy there after volunteering to help with a few retreats. I loved the Insight Meditation Community of Colorado (IMCC) because I could sit in a chair and the teachings were very approachable. It also led me to the Insight Meditation group <a href="https://opendoorsangha.org/" target="_blank">Open Door Sangha</a> in Santa Barbara and some other wonderful retreats in the Theravada lineage with Thai monks at <a href="https://www.abuddhisttemple.org/" target="_blank">American Buddhist Meditation Temple</a> in Goleta. Walking meditation in the garden there was a game changer!
+I went to a couple of workshops living in NYC, but my practice really developed at the Shambhala Center and Insight Meditation groups in Boulder. I enjoyed the Shambhala Center's open-hearted vibe and structured training pathway, but felt burned learning about the controversy there after volunteering to help with a few retreats. I loved the Insight Meditation Community of Colorado (IMCC) because I could sit in a chair and the teachings were very approachable. It also led me to the Insight Meditation group <a href="https://opendoorsangha.org/" target="_blank">Open Door Sangha</a> in Santa Barbara and some other wonderful retreats in the Theravada lineage with Thai monks at <a href="https://www.abuddhisttemple.org/" target="_blank">American Buddhist Meditation Temple</a> in Goleta. Walking meditation in the garden there was a game changer!
 
 <div class="sean-blog-image">
   <figure>
