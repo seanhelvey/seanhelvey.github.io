@@ -2,33 +2,24 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Contact Info</h2>
+    <div class="footer-content">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <ul class="contact-list">
-          <li>&copy; {{ 'now' | date: "%Y" }} Sean Helvey</li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <ul class="contact-list">
-          <li><a href="https://seanhelvey-1.eo.page/subscribe" target="_blank" rel="noopener">Subscribe by email</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <ul class="contact-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+      <ul class="footer-list">
+        <li>&copy; {{ 'now' | date: "%Y" }} Sean Helvey</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="https://seanhelvey-1.eo.page/subscribe" target="_blank" rel="noopener">Subscribe by email</a></li>
+      </ul>
+
+      <ul class="footer-list footer-social">
+        {% if site.github_username %}
+        <li><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a></li>
+        {% endif %}
+        <li><a href="https://www.goodreads.com/user/show/39832025-sean-helvey" target="_blank" rel="noopener">Goodreads</a></li>
+        <li><a href="https://bsky.app/profile/seanhelvey.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+        <li><a href="https://mas.to/@seanhelvey" target="_blank" rel="noopener">Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/in/seanhelvey/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+
     </div>
 
   </div>
