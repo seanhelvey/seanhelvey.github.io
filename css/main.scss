@@ -71,6 +71,49 @@ $on-laptop:        800px;
   }
 }
 
+.field-notes {
+  max-width: min(100%, 480px);
+  margin: 2.5em auto;
+  padding: 1.5em 1.75em;
+  background-color: #f6f5f0;
+  border-left: 4px solid $accent-color;
+  border-radius: 4px;
+
+  h4 {
+    margin: 0 0 0.9em;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    margin: 0 0 0.65em;
+    padding-left: 1.1em;
+    font-style: italic;
+    line-height: 1.4;
+    color: $text-color;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: $accent-color;
+  }
+}
+
 .index-hero {
     display: flex;
     align-items: center;
