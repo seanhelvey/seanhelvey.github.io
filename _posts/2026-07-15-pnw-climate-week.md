@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "PNW Climate Week"
-date:   2026-07-15
+date:   2026-07-19
 permalink: /:title/
-published: false
+published: true
 ---
 
-I came to PNW Climate Week curious how I might be able to put years of experience building software in service of the planet.
+I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. My career could also take a new direction entirely, as one part of a more conscious lifestyle spent tending community gardens and contributing in ways I have yet to imagine. There are a lot of possibilities!
 
 ## Day 1
 
-It kicked off with a full day of panels and workshops around "Empowering Local Climate Action: Education, Policy and Practice", opening with a guided visualization to imagine 2035 through each of our senses. We crowdsourced what we noticed onto paper, and graphic recorder <a href="https://mollychidsey.com/" target="_blank">Molly Chidsey</a> drew our collective vision from those notes here:
+The week kicked off with a full day of panels and workshops around "Empowering Local Climate Action: Education, Policy and Practice", opening with a guided visualization to imagine 2035 through each of our senses. We crowdsourced what we noticed onto paper, and graphic recorder <a href="https://mollychidsey.com/" target="_blank">Molly Chidsey</a> drew our collective vision from those notes here:
 
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
@@ -39,7 +39,7 @@ Later that evening I went over to Sunnyside Community Center and experienced con
 
 ## Day 2
 
-Sun, Soil & Sovereignty was an agrivoltaics tour with SHEBA Farm at Oregon State's North Willamette Research and Extension Center in Aurora, where the same acre grows food and generates power. Under the tent, <a href="https://farmsolarfit.org" target="_blank">Farm Solar Fit</a> walked through the system they are building for Oregon and Washington farmers. It weighs three options over a 20 year horizon: keep farming as is, lease the land for solar, or go agrivoltaic. The math runs on the actual soil, sun, and water numbers for a parcel instead of generic estimates. 
+Sun, Soil & Sovereignty was an agrivoltaics tour with SHEBA Farm at Oregon State's North Willamette Research and Extension Center in Aurora, where the same acre grows food and generates power. Under the tent, <a href="https://farmsolarfit.org" target="_blank">Farm Solar Fit</a> walked through the system they are building for Oregon and Washington farmers. It weighs three options over a 20 year horizon: keep farming as is, lease the land for solar, or go agrivoltaic. The math runs on the actual soil, sun, and water numbers for a parcel instead of generic estimates.
 
 <div class="sean-blog-gallery">
   <figure>
@@ -78,7 +78,7 @@ Erin Kester, who was volunteering that night, was so friendly and went out of he
 
 ## Day 3
 
-<a href="https://www.rebuildingcenter.org" target="_blank">ReBuilding Center</a> hosted Reimagining & Repurposing, where a longtime Portland craftsman walked us through the cleaning, repair, and restoration that makes reuse possible. I love picking scrapyards and finding deals at thrift shops, keeping what we already have out of the landfill a while longer. It might be the least glamorous corner of the circular economy and the most useful one.
+<a href="https://www.rebuildingcenter.org" target="_blank">ReBuilding Center</a> hosted Reimagining & Repurposing, where a longtime Portland craftsman walked us through the cleaning, repair, and restoration that makes reuse possible. I love picking scrapyards and finding deals at thrift shops, keeping what we already have out of the landfill a while longer. It might be the least glamorous corner of the circular economy and the most useful one. My friend Celine Mol helped build <a href="https://www.joinbeni.com/" target="_blank">Beni</a>, a browser extension that searches 300 million secondhand listings to make resale the obvious choice, so maybe there is a way to point tech at exactly this. And even if it stays fully local and organic, hands sorting salvage instead of a keyboard, that is still something I could see myself doing. Not everything has to be about software.
 
 <div class="sean-blog-gallery">
   <figure>
@@ -102,4 +102,4 @@ I also attended a fireside chat with <a href="https://www.depave.org" target="_b
 
 Depave mentioned a possible collaboration with the <a href="https://www.pdx.edu/indigenous-nations-studies/psu-oak-savanna" target="_blank">PSU Oak Savanna</a>, an urban restoration site where students have been planting white oak, camas, and serviceberry to bring back native plants and traditional Indigenous practices. I met Brittany Gadbury from Portland Parks & Rec's <a href="https://www.portland.gov/trees" target="_blank">Urban Forestry</a> team, who pointed me toward the <a href="https://www.portlandplacemaking.org/" target="_blank">Portland Placemaking Coalition</a> and <a href="https://www.treesforlifeoregon.org" target="_blank">Trees for Life Oregon</a>, both of which I am excited to learn more about.
 
-This is just a tiny fraction of events throughout the entire week across seven cities, from Vancouver, BC to Bend. Even that small sample blew me away with the scale and diversity of the community. I met a wide variety of participants, from professors and craftsmen to executive directors and urban foresters. I came in wondering where my experience might serve, and the week kept answering: solar arrays, battery storage, a VR headset, data centers, GIS maps finding the blocks that need shade. Software is vital for the health of our planet, and I would love to see more engineers out there. Let's co-create a deeper connection between tech and climate action in 2027!
+This is just a tiny fraction of events throughout the entire week across seven cities, from Vancouver, BC to Bend. Even that small sample blew me away with the scale and diversity of the community. I met a wide variety of participants, from professors and craftsmen to executive directors and urban foresters. I came in wondering where I might fit, and the event kept answering in more forms than I expected: solar arrays, battery storage, a VR headset, data centers, GIS maps finding the blocks that need shade, community gardens, a workshop full of salvaged wood. Software is vital for the health of our planet, and I would love to see more engineers out there. But so much of the work runs far wider than code, and a life of service can take any of those shapes. Wherever my own path leads, I left certain there is room for all of us. Let's co-create a deeper connection between our work and climate action in 2027!
