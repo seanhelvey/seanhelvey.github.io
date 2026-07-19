@@ -6,7 +6,7 @@ permalink: /:title/
 published: true
 ---
 
-I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. My career could also take a new direction entirely, as one part of a more conscious lifestyle spent tending community gardens and contributing in ways I have yet to imagine. There are a lot of possibilities!
+I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. My career could also take a new direction entirely, part of a more conscious lifestyle spent tending community gardens or helping in ways I have yet to dream up. There are a lot of possibilities!
 
 ## Day 1
 
@@ -61,7 +61,7 @@ OSU professor <a href="https://agsci.oregonstate.edu/users/chad-higgins" target=
   </figure>
 </div>
 
-Itanna and Dr. Ardelia Clarke could not have been more welcoming. Itanna leads <a href="https://shebafarm.com" target="_blank">SHEBA Farm</a>, activating 10 acres of underutilized Willamette Valley farmland for beginning and underrepresented farmers. Dr. Clarke, also from SHEBA, runs <a href="https://www.linkedin.com/company/nerd-n-out/" target="_blank">Nerd'N Out</a>, which brings PhD level rigor to frontline communities and tribal nations who rarely get access to it. Jana Gastellum came out for the tour her org sponsored, as Executive Director of the <a href="https://oeconline.org/" target="_blank">Oregon Environmental Council</a>.
+Itanna Murphy and Dr. Ardelia Clarke could not have been more welcoming. Itanna leads <a href="https://shebafarm.com" target="_blank">SHEBA Farm</a>, activating 10 acres of underutilized Willamette Valley farmland for beginning and underrepresented farmers. Dr. Clarke, also from SHEBA, runs <a href="https://www.linkedin.com/company/nerd-n-out/" target="_blank">Nerd'N Out</a>, which brings PhD level rigor to frontline communities and tribal nations who rarely get access to it. Jana Gastellum came out for the tour her org sponsored, as Executive Director of the <a href="https://oeconline.org/" target="_blank">Oregon Environmental Council</a>.
 
 <a href="https://www.womenincleantechsustainability.org/" target="_blank">Women in Cleantech and Sustainability</a> and <a href="https://futureclimatecollective.org/" target="_blank">Future Climate Collective</a> put on a screening of Future Council, a doc about kids taking on corporate and political leaders over climate accountability. Afterward, Portland's Chief Sustainability Officer Vivian Satterfield moderated a youth panel with Sage Dalke from the Collective, Shubh Narayan from the city's Sustainability and Climate Commission, and Twyla Metcalfe, an environmental studies major at Lewis & Clark.
 
