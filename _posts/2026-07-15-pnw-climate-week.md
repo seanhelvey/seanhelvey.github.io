@@ -6,7 +6,7 @@ permalink: /:title/
 published: true
 ---
 
-I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. My career could also take a new direction entirely, part of a more conscious lifestyle spent tending community gardens or helping in ways I have yet to dream up. There are a lot of possibilities!
+I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. It could also look completely different, part of a more conscious lifestyle spent tending community gardens or helping in ways I have yet to dream up. There are a lot of possibilities!
 
 ## Day 1
 
