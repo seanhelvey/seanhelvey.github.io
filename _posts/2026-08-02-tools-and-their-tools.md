@@ -2,7 +2,7 @@
 layout: post
 title:  "AI Mania: From Tulips to Tokens"
 subtitle: "Men have become the tools of their tools"
-date:   2026-07-28
+date:   2026-08-02
 permalink: /:title/
 published: True
 ---
