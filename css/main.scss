@@ -113,6 +113,12 @@ $on-laptop:        800px;
 // One image per row, for artwork worth seeing at full column width.
 .sean-blog-gallery-stack {
   grid-template-columns: 1fr;
+
+  // Artwork keeps its own proportions instead of being cropped to 4:3.
+  img {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
 }
 
 
@@ -130,6 +136,11 @@ $on-laptop:        800px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: $accent-color;
+
+    // A sourced heading should read as one line, not two colours.
+    a {
+      color: inherit;
+    }
   }
 
   ul {
@@ -156,6 +167,30 @@ $on-laptop:        800px;
     position: absolute;
     left: 0;
     color: $accent-color;
+  }
+}
+
+
+// Charts and other embeds hosted elsewhere.
+.sean-blog-embed {
+  margin: 2.5em 0;
+
+  iframe {
+    width: 100%;
+    height: 600px;
+    border: 0;
+  }
+
+  figcaption {
+    margin-top: 0.5em;
+    text-align: center;
+    color: $grey-color-dark;
+  }
+
+  @include media-query($on-palm) {
+    iframe {
+      height: 520px;
+    }
   }
 }
 
