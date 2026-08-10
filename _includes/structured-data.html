@@ -1,0 +1,66 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#sean",
+  "name": "Sean Helvey",
+  "url": "{{ site.url }}/",
+  "email": "mailto:{{ site.email }}",
+  "image": "{{ site.url }}/assets/images/seanhelvey/2026/SeanBlackWhite2025.jpg",
+  "jobTitle": "Software Engineer",
+  "description": "Software engineer with fifteen years building Python, Django, and Google Cloud applications, currently open to a role in climate, social services, or education.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Koinonia Family Services",
+    "url": "https://www.kfh.org/"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "New York University, Courant Institute of Mathematical Sciences",
+      "url": "https://cs.nyu.edu/"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "California Polytechnic State University, San Luis Obispo",
+      "url": "https://www.calpoly.edu/"
+    }
+  ],
+  "knowsAbout": [
+    "Python",
+    "Django",
+    "JavaScript",
+    "Google Cloud Platform",
+    "Kubernetes",
+    "PostgreSQL",
+    "Web accessibility",
+    "Machine learning",
+    "Agentic AI workflows",
+    "Permaculture"
+  ],
+  "sameAs": [
+    "https://github.com/{{ site.github_username }}",
+    "https://www.linkedin.com/in/seanhelvey/",
+    "https://bsky.app/profile/seanhelvey.bsky.social",
+    "https://mas.to/@seanhelvey",
+    "https://www.goodreads.com/user/show/39832025-sean-helvey"
+  ]
+}
+</script>
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  {% if page.subtitle %}"alternativeHeadline": {{ page.subtitle | jsonify }},{% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+  "mainEntityOfPage": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+  "author": { "@id": "{{ site.url }}/#sean" },
+  "publisher": { "@id": "{{ site.url }}/#sean" },
+  "inLanguage": "en"
+}
+</script>
+{% endif %}

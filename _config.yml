@@ -16,3 +16,25 @@ github_username:  seanhelvey
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - logocheck
+  - README.md
+  - CLAUDE.md
+  - .claude
+
+# Keep the resume out of the sitemap, matching the noindex on /resume/.
+defaults:
+  - scope:
+      path: "assets/HelveyResume2026.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "WebAssembly.pdf"
+    values:
+      sitemap: false
