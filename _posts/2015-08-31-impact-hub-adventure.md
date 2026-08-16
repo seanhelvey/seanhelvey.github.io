@@ -17,7 +17,7 @@ tags:
   - Stockholm
   - Travel
 ---
-As I&#8217;ve said <a href="http://www.seanhelvey.com/cross-pollination/" target="_blank">before</a>, I love being a member of Impact Hub Boulder. The incredible people there inspire me every day. However, it&#8217;s time for a new adventure. I&#8217;m off to Europe!
+As I&#8217;ve said <a href="/cross-pollination/" target="_blank">before</a>, I love being a member of Impact Hub Boulder. The incredible people there inspire me every day. However, it&#8217;s time for a new adventure. I&#8217;m off to Europe!
 
 I&#8217;ve decided to spend the month of September exploring other Impact Hubs. I want to set an example for members, encourage collaboration across borders, and raise awareness around the Impact Hub Passport. The Impact Hub Passport is currently being redesigned to allow members to move between different hubs with greater ease.
 

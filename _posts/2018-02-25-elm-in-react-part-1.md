@@ -71,4 +71,4 @@ Now we can easily replace the React component in our `app.js` file with Elm:
   </figure>
 </div>
 
-We will replace the react view with Elm in [part #2](http://www.seanhelvey.com/elm-in-react-part-2/)
+We will replace the react view with Elm in [part #2](/elm-in-react-part-2/)

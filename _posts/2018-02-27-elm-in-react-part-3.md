@@ -5,7 +5,7 @@ date:  2018-02-27-elm-in-react-part-3.md
 permalink: /:title/
 ---
 
-This is a follow-up to [Elm in React Part #2](http://www.seanhelvey.com/elm-in-react-part-2/). We have replaced the "add todo" form view of a React todo list app with Elm, but we still need model and update functions as part of The Elm Architecture. We also need ports to communicate with JavaScript or React in this case. Checkout the Elm branch of this todo list repo if you want to follow along. Here are the remaining steps:
+This is a follow-up to [Elm in React Part #2](/elm-in-react-part-2/). We have replaced the "add todo" form view of a React todo list app with Elm, but we still need model and update functions as part of The Elm Architecture. We also need ports to communicate with JavaScript or React in this case. Checkout the Elm branch of this todo list repo if you want to follow along. Here are the remaining steps:
 
 1. Create a Html.program following the [react-elm-components](https://github.com/evancz/react-elm-components) example
 2. Wire-up view to produce a message and display the updated model
@@ -57,7 +57,7 @@ What is lowercase "submit" where it says `submit oldInput` in the snippet above?
 There is a certain amount of pain and pleasure that we experience using a compiled language. It takes patience and practice in order to become comfortable with the process. Try to have some fun exploring this! Don't forget that this todo list repo has my solution in the Elm branch.
 
 ### Step 2 - Wire-up view
-We will now wire-up the view to produce a message and display the updated model. Remember our stub view from [Elm in React Part #2](http://www.seanhelvey.com/elm-in-react-part-2/)?
+We will now wire-up the view to produce a message and display the updated model. Remember our stub view from [Elm in React Part #2](/elm-in-react-part-2/)?
 
 #### Our stub view function
 ```
