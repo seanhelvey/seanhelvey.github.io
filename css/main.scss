@@ -355,3 +355,57 @@ $on-laptop:        800px;
       color: $grey-color;
     }
   }
+// A short post whose only job is to send the reader somewhere else.
+// Opt in with `micropost: true` in the front matter.
+.micropost {
+  // The gallery's zoom-in cursor promises a bigger picture. Here the image is a
+  // door to the piece itself, so it has to point rather than magnify.
+  .sean-blog-gallery figure > a {
+    cursor: pointer;
+  }
+
+  // Diagrams arrive with their own paper colour, so give them a white mat and a
+  // hairline edge instead of letting one warm tone sit on another.
+  .sean-blog-gallery img {
+    background-color: #fff;
+    border: 1px solid $grey-color-light;
+    padding: 0.75em;
+  }
+
+  .sean-blog-gallery figcaption {
+    font-size: 14px;
+  }
+}
+
+// The hand-off, and the whole reason the post exists. Full width and loud,
+// directly under the image, so there is nothing after it to look past.
+.micropost-links {
+  margin: 2em 0 0;
+
+  .go {
+    display: block;
+    padding: 1.1em 1.5em;
+    background-color: $accent-color;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .go:hover,
+  .go:focus {
+    background-color: darken($accent-color, 8%);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .aside {
+    display: block;
+    margin-top: 0.8em;
+    font-size: 14px;
+    text-align: center;
+    color: $grey-color-dark;
+  }
+}
