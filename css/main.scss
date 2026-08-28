@@ -367,6 +367,9 @@ $on-laptop:        800px;
   // Diagrams arrive with their own paper colour, so give them a white mat and a
   // hairline edge instead of letting one warm tone sit on another.
   .sean-blog-gallery img {
+    // width:100% plus padding and a border overflows a content-box, which leaks
+    // past the column on a phone. Fold the mat and the edge back inside.
+    box-sizing: border-box;
     background-color: #fff;
     border: 1px solid $grey-color-light;
     padding: 0.75em;
