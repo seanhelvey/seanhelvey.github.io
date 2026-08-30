@@ -19,5 +19,7 @@ _site/
 .gitmodules
 .ripgreprc
 .mcp.json
+.idea
 .idea/
+.vscode
 .vscode/
