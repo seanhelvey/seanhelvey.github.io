@@ -8,9 +8,33 @@ description: "Writing by Sean Helvey on software engineering, Python and Django,
 
   <h1 class="page-heading">Blog</h1>
 
+  {%- comment -%}
+    site.tags is core Jekyll, no plugin needed: a hash of tag name to posts.
+    The pages themselves come from jekyll-archives.
+
+    Sorted by name, not by count. Iterating site.tags yields [name, posts]
+    pairs, so `sort: "size"` tries to index a pair by a string and raises;
+    a bare `sort` orders by the first element. Alphabetical is also easier to
+    scan when you are looking for one subject, and the count is on each chip
+    anyway.
+  {%- endcomment -%}
+  {%- assign tags = site.tags | sort -%}
+  <nav class="tag-nav" aria-label="Browse writing by topic">
+    <ul>
+      <li><a href="/blog.html" data-topic="" class="is-active">All<span class="tag-nav-count">{{ site.posts | size }}</span></a></li>
+      {%- for tag in tags %}
+      <li>
+        <a href="/topics/{{ tag[0] | slugify }}/" data-topic="{{ tag[0] }}">{{ tag[0] }}<span class="tag-nav-count">{{ tag[1] | size }}</span></a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+
+  <p class="tag-status" role="status" aria-live="polite"></p>
+
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li data-tags="{{ post.tags | join: '|' }}">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
@@ -31,3 +55,59 @@ description: "Writing by Sean Helvey on software engineering, Python and Django,
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+<script>
+(function () {
+  var nav = document.querySelector('.tag-nav');
+  var list = document.querySelector('.post-list');
+  if (!nav || !list || !window.history.replaceState) return;
+
+  var chips = Array.prototype.slice.call(nav.querySelectorAll('a[data-topic]'));
+  var rows = Array.prototype.slice.call(list.children);
+  var status = document.querySelector('.tag-status');
+
+  function apply(topic, push) {
+    var shown = 0;
+    rows.forEach(function (row) {
+      var tags = (row.getAttribute('data-tags') || '').split('|');
+      var hit = !topic || tags.indexOf(topic) !== -1;
+      row.hidden = !hit;
+      if (hit) shown++;
+    });
+
+    chips.forEach(function (chip) {
+      var on = chip.getAttribute('data-topic') === topic;
+      chip.classList.toggle('is-active', on);
+      if (on) { chip.setAttribute('aria-current', 'true'); }
+      else { chip.removeAttribute('aria-current'); }
+    });
+
+    if (status) {
+      status.textContent = topic
+        ? shown + (shown === 1 ? ' post' : ' posts') + ' tagged ' + topic + '.'
+        : '';
+    }
+
+    if (push) {
+      var url = topic ? '?topic=' + encodeURIComponent(topic) : location.pathname;
+      history.pushState({ topic: topic }, '', url);
+    }
+  }
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function (e) {
+      // Let modified clicks open the real topic page in a tab.
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      e.preventDefault();
+      apply(chip.getAttribute('data-topic'), true);
+    });
+  });
+
+  window.addEventListener('popstate', function (e) {
+    apply((e.state && e.state.topic) || '', false);
+  });
+
+  var initial = new URLSearchParams(location.search).get('topic') || '';
+  if (initial) apply(initial, false);
+})();
+</script>

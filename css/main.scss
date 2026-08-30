@@ -476,6 +476,72 @@
 
 // Off screen until tabbed to, then the first stop on every page so a keyboard
 // or screen-reader user is not walked through the masthead on all 58 posts.
+// Topic chips at the head of the writing index. Without these the topic pages
+// were only reachable from inside a post, so nobody browsing could see the range
+// of subjects at a glance. A row, not a sidebar: sidebars cost a column that a
+// phone does not have.
+.tag-nav {
+  margin: 0 0 $space-5;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.45em;
+    padding: 0.35em 0.75em;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 0.9375rem;
+    font-weight: 550;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  // Set by the filter script. Without JS no chip is active and every chip is
+  // just a link to its topic page, which is the whole fallback.
+  a.is-active {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+  }
+
+  a.is-active .tag-nav-count {
+    color: var(--on-accent);
+    opacity: 0.75;
+  }
+}
+
+.tag-status {
+  margin: -1.5rem 0 $space-5;
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.tag-nav-count {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
 // Mobile hardening. The archive is imported WordPress markup: 14 tables and 29
 // images carrying inline width/height attributes, none of it written with a
 // phone in mind.
