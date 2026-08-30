@@ -9,16 +9,7 @@ permalink: /the-most-valuable-django-command-ever/
 categories:
   - Libraries and Frameworks
   - Technology
-tags:
-  - Debugging
-  - Django
-  - ipdb
-  - pdb
-  - PostgreSQL
-  - ProgrammingError
-  - Solution
-  - SQLite
-  - Threading
+tags: [Python]
 ---
 There you are, debugging using pdb or ipdb, trying to ship the latest build of an important project. You are running PostgreSQL, yet a pesky SQLite error continues to interrupt your workflow:
 
@@ -27,7 +18,7 @@ There you are, debugging using pdb or ipdb, trying to ship the latest build of a
 You have tried everything! Googling indicates that there is no shortage of Pythonistas out there who have experienced the same problem, but no solution is available.
 
 <div id="attachment_795" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge.jpeg"><img class="size-medium wp-image-795" src="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge-300x127.jpeg" alt="What do you do? What do you do?" width="300" height="127" srcset="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge-300x127.jpeg 300w, /assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge.jpeg 590w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge.jpeg"><img loading="lazy" decoding="async" class="size-medium wp-image-795" src="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge-300x127.jpeg" alt="What do you do? What do you do?" width="300" height="127" srcset="/assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge-300x127.jpeg 300w, /assets/images/seanhelvey/2015/01/Pop_Quiz_Hot_Shot.jpeg.CROP_.promovar-mediumlarge.jpeg 590w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     What do you do? What do you do?

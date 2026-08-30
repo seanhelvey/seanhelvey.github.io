@@ -3,12 +3,13 @@ layout: post
 title:  "Calling All Landlocked Surfers"
 date:   2017-02-12-calling-all-landlocked-surfers.md
 permalink: /:title/
+tags: [Travel]
 ---
 Over the last couple of years I've been blessed with amazing surfing experiences. I've ridden waves from Spain to Hawaii, Mexico, and home in California. As I have gotten older though, many of my friends have stopped surfing for various reasons (work, family, injuries, etc.). Living in Colorado has changed the dynamic quite a bit too. I need to make more of an effort to organize surf travel with friends.
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2017/Landlocked.jpg" target="_blank"><img alt="EC2 Instances" class=" lazyloaded" src="/assets/images/seanhelvey/2017/Landlocked.jpg">
+    <a href="/assets/images/seanhelvey/2017/Landlocked.jpg" target="_blank"><img loading="lazy" decoding="async" alt="EC2 Instances" class=" lazyloaded" src="/assets/images/seanhelvey/2017/Landlocked.jpg">
     </a>
   <figcaption>
     Are you a landlocked surfer?
@@ -20,7 +21,7 @@ This is a call to all landlocked surfers and those in need of adventure. We migh
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2017/encino.gif" target="_blank"><img alt="EC2 Instances" class=" lazyloaded" src="/assets/images/seanhelvey/2017/encino.gif">
+    <a href="/assets/images/seanhelvey/2017/encino.gif" target="_blank"><img loading="lazy" decoding="async" alt="EC2 Instances" class=" lazyloaded" src="/assets/images/seanhelvey/2017/encino.gif">
     </a>
   <figcaption>
     If you're edged 'cause I'm weazin all your grindage, just chill.

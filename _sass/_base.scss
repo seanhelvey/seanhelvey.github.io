@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 /**
  * Reset some basic elements
  */
@@ -15,8 +17,8 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: var(--text);
+    background-color: var(--bg);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -34,7 +36,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 0.5;
 }
 
 
@@ -81,8 +83,28 @@ li {
 /**
  * Headings
  */
+// There was no type scale at all: every heading rendered at the browser default
+// size and weight 400, which is the single biggest reason the site read as
+// unstyled. Sizes are in rem so they follow the root, weights are heavy enough
+// to establish hierarchy without shouting.
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: 650;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+}
+
+h1 { font-size: 2.125rem; letter-spacing: -0.025em; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.1875rem; }
+h4 { font-size: 1.0625rem; }
+h5, h6 { font-size: 1rem; }
+
+// Headings need more room above than below, so they group with the text they
+// introduce instead of floating between two blocks.
+.post-content, .about-arc {
+    h2 { margin-top: $space-5; margin-bottom: $space-3; }
+    h3 { margin-top: $space-4; margin-bottom: $space-2; }
 }
 
 
@@ -91,15 +113,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: var(--link);
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: var(--link-hover);
     }
 
     &:hover {
-        color: $text-color;
+        color: var(--text);
         text-decoration: underline;
     }
 }
@@ -110,11 +132,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    color: var(--muted);
+    border-left: 4px solid var(--rule);
+    padding-left: $space-4;
+    font-size: 1.0625rem;
+    letter-spacing: normal;
     font-style: italic;
 
     > :last-child {
@@ -129,10 +151,12 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
+    font-family: $mono-font-family;
+    font-size: 0.875em;
+    border: 1px solid var(--rule);
     border-radius: 3px;
-    background-color: #eef;
+    background-color: var(--code-bg);
+    color: var(--code-text);
 }
 
 code {
@@ -167,8 +191,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: $spacing-unit * 0.5;
+        padding-left: $spacing-unit * 0.5;
     }
 }
 
@@ -200,7 +224,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: var(--muted);
         }
     }
 }

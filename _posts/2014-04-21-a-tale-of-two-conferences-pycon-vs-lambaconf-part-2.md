@@ -10,11 +10,12 @@ categories:
   - Community
   - Life
   - Technology
+tags: [Python]
 ---
 So, what is the problem? Python is easy enough to read that Guido was able to debug his program in a matter of seconds during his keynote. If it were a large system with several dozen developers though, it would surely be more difficult to write tests and prevent errors from occurring. While Python is strongly typed, it is a <a title="dynamic programming language" href="http://en.wikipedia.org/wiki/Dynamic_programming_language" target="_blank">dynamic programming language</a>, meaning these checks happen at runtime instead of during compilation.
 
 <div id="attachment_598" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://twitter.com/boia01/status/457517653582557185/photo/1"><img class="wp-image-598 size-medium" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM-300x227.png" alt="Thanks to Alex Boisvert for the image." width="300" height="227" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM-300x227.png 300w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM.png 907w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="https://twitter.com/boia01/status/457517653582557185/photo/1"><img loading="lazy" decoding="async" class="wp-image-598 size-medium" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM-300x227.png" alt="Thanks to Alex Boisvert for the image." width="300" height="227" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM-300x227.png 300w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-11.07.20-AM.png 907w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Thanks to Alex Boisvert for the image.
@@ -33,9 +34,9 @@ I associate functional programming with Lambda Calculus and imperative programmi
 
 It turns out that in this case, style matters. Catching bugs upstream by restricting side-effects and ensuring type safety during compilation is clearly more efficient in terms of programmer time than trying to detect problems with testing at runtime.
 
-[<img class="aligncenter wp-image-629" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png" alt="Screen Shot 2014-04-20 at 7.06.06 PM" width="500" height="91" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png 729w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM-300x54.png 300w" sizes="(max-width: 500px) 100vw, 500px" />](/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png)
+[<img loading="lazy" decoding="async" class="aligncenter wp-image-629" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png" alt="Screen Shot 2014-04-20 at 7.06.06 PM" width="500" height="91" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png 729w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM-300x54.png 300w" sizes="(max-width: 500px) 100vw, 500px" />](/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.06.06-PM.png)
 
-[<img class="aligncenter wp-image-639" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png" alt="Screen Shot 2014-04-20 at 7.20.02 PM" width="500" height="86" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png 707w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM-300x51.png 300w" sizes="(max-width: 500px) 100vw, 500px" />](/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png)
+[<img loading="lazy" decoding="async" class="aligncenter wp-image-639" src="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png" alt="Screen Shot 2014-04-20 at 7.20.02 PM" width="500" height="86" srcset="/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png 707w, /assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM-300x51.png 300w" sizes="(max-width: 500px) 100vw, 500px" />](/assets/images/seanhelvey/2014/04/Screen-Shot-2014-04-20-at-7.20.02-PM.png)
 
 Huge thanks to <a title="@nuttycom" href="https://twitter.com/nuttycom" target="_blank">@nuttycom</a>, <a title="@puffnfresh" href="https://twitter.com/puffnfresh" target="_blank">@puffnfresh</a>, <a title="@DataRiot" href="https://twitter.com/DataRiot" target="_blank">@datariot</a>, <a title="@NathanLubchenco" href="https://twitter.com/NathanLubchenco" target="_blank">@nathanlubchenco</a>, and @dchenbecker. The big data team at Simple Energy is always drilling home the importance of type safety and helping mere mortals like myself understand the state explosion that takes place in large systems that aren&#8217;t written functionally. They are thought leaders in their community and just awesome people to be around.
 

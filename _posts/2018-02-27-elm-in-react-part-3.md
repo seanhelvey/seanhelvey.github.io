@@ -3,8 +3,8 @@ layout: post
 title:  "Elm in React Part #3"
 date:  2018-02-27-elm-in-react-part-3.md
 permalink: /:title/
+tags: [JavaScript]
 ---
-
 This is a follow-up to [Elm in React Part #2](/elm-in-react-part-2/). We have replaced the "add todo" form view of a React todo list app with Elm, but we still need model and update functions as part of The Elm Architecture. We also need ports to communicate with JavaScript or React in this case. Checkout the Elm branch of this todo list repo if you want to follow along. Here are the remaining steps:
 
 1. Create a Html.program following the [react-elm-components](https://github.com/evancz/react-elm-components) example
@@ -118,7 +118,7 @@ The [react-elm-components](https://github.com/evancz/react-elm-components) libra
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/addPortsReact.png" target="_blank"><img alt="addPortsReact" class=" lazyloaded" src="/assets/images/seanhelvey/2018/addPortsReact.png">
+    <a href="/assets/images/seanhelvey/2018/addPortsReact.png" target="_blank"><img loading="lazy" decoding="async" alt="addPortsReact" class=" lazyloaded" src="/assets/images/seanhelvey/2018/addPortsReact.png">
     </a>
   <figcaption>
     We are done!

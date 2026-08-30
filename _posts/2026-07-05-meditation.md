@@ -4,15 +4,15 @@ title:  "Meditation"
 date:   2026-07-05
 permalink: /:title/
 # published: false
+tags: [Meditation]
 ---
-
 I've written more about <a href="/teaching-yoga/">yoga</a> than meditation, but both have been vital for my well-being over the years. Yoga was an easier path for me at first as an active person, since it's hard for me to sit still (and I could do it at the gym!). I'm using "meditation" here rather than Buddhism because to me it implies putting that system of beliefs into practice.
 
 Lately I keep returning to meditation as a refuge, and I feel compelled to try some longer retreats in a few traditions over the coming months. A teacher friend told me the advice to "stop dabbling" and commit to one style really advanced their practice. I totally intend to do that, right after I explore a few more!
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="Sean teaching yoga" src="/assets/images/seanhelvey/SeanYoga2025.jpg">
+    <img loading="lazy" decoding="async" alt="Sean teaching yoga" src="/assets/images/seanhelvey/SeanYoga2025.jpg">
   </figure>
     <figcaption>
       Sean teaching yoga
@@ -23,7 +23,7 @@ I went to a couple of workshops living in NYC, but my practice really developed 
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="American Buddhist Meditation Temple (ABMT)" src="/assets/images/seanhelvey/2026/ABMT.png">
+    <img loading="lazy" decoding="async" alt="American Buddhist Meditation Temple (ABMT)" src="/assets/images/seanhelvey/2026/ABMT.png">
   </figure>
     <figcaption>
       American Buddhist Meditation Temple (ABMT)
@@ -36,7 +36,7 @@ Recently I attended a very supportive orientation retreat at <a href="https://sh
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="The view of Mt. Shasta" class="lazyloaded" src="/assets/images/seanhelvey/2026/Abbey.jpg">
+    <img loading="lazy" decoding="async" alt="The view of Mt. Shasta" class="lazyloaded" src="/assets/images/seanhelvey/2026/Abbey.jpg">
   </figure>
     <figcaption>
       The view of Mt. Shasta

@@ -10,6 +10,7 @@ categories:
   - Community
   - Life
   - Philanthropy
+tags: []
 ---
 We have had some amazing conversations over the last couple of months at <a title="BLDRPPL" href="https://twitter.com/BLDRPPL" target="_blank">BLDRPPL</a>. Our third full episode will be finished sometime this week. While each person featured so far has been very unique and interesting, I hope that we can branch out further over the next year and have slightly more frequent posts. Also, if anyone is aware of a sponsor who would be willing to donate space for less than an hour every couple of weeks for a quiet interview, please let us know!
 

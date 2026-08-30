@@ -3,11 +3,11 @@ layout: post
 title:  "5 Reasons Interest Rates Are Rising"
 date:   2016-11-11 15:00:00 -0600
 permalink: /:title/
+tags: [Finance]
 ---
-
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2016/11/mr_toads_wild_ride_pin005.png" target="_blank"><img alt="Wild Ride" class=" lazyloaded" src="/assets/images/seanhelvey/2016/11/mr_toads_wild_ride_pin005.png">
+    <a href="/assets/images/seanhelvey/2016/11/mr_toads_wild_ride_pin005.png" target="_blank"><img loading="lazy" decoding="async" alt="Wild Ride" class=" lazyloaded" src="/assets/images/seanhelvey/2016/11/mr_toads_wild_ride_pin005.png">
     </a>
   <figcaption>
     Money in the bank or under the mattress, it turns out, may not be that safe after all.

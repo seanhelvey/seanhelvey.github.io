@@ -3,8 +3,8 @@ layout: post
 title:  "Elm in React Part #2"
 date:  2018-02-27-elm-in-react-part-2.md
 permalink: /:title/
+tags: [JavaScript]
 ---
-
 This is a follow-up to [Elm in React Part #1](/elm-in-react-part-1/). In the first post we replaced the "add todo" form portion of a React todo list app with "hello world" written in Elm. Now we will replace the Elm "hello world" stub with an Elm view. Checkout the Elm branch of this todo list repo if you want to follow along. In plain English these are the steps I took:
 
 1. Surrender to the Elm Architecture
@@ -13,7 +13,7 @@ This is a follow-up to [Elm in React Part #1](/elm-in-react-part-1/). In the fir
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/todo.png" target="_blank"><img alt="todo" class=" lazyloaded" src="/assets/images/seanhelvey/2018/todo.png">
+    <a href="/assets/images/seanhelvey/2018/todo.png" target="_blank"><img loading="lazy" decoding="async" alt="A To Do list app listing Laundry, Feed Dog, and Mow Lawn, each with a Delete button, above a form with a Title field" class=" lazyloaded" src="/assets/images/seanhelvey/2018/todo.png">
     </a>
   <figcaption>
     A simple todo list
@@ -51,7 +51,7 @@ You can see the finished Elm view and the React / JSX code we replaced in this d
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/viewDiff.png" target="_blank"><img alt="viewDiff" class=" lazyloaded" src="/assets/images/seanhelvey/2018/viewDiff.png">
+    <a href="/assets/images/seanhelvey/2018/viewDiff.png" target="_blank"><img loading="lazy" decoding="async" alt="viewDiff" class=" lazyloaded" src="/assets/images/seanhelvey/2018/viewDiff.png">
     </a>
   <figcaption>
     A google search will lead you to many tools which can help you easily translate HTML or JSX to Elm. You can start there, and then make little tweaks as you see fit. If you have any trouble with elm-format, take a look at this <a href="https://github.com/avh4/elm-format/issues/408" target="_blank">GitHub Issue</a> for guidance.

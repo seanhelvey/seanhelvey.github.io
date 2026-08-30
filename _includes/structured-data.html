@@ -60,6 +60,8 @@
   "mainEntityOfPage": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
   "author": { "@id": "{{ site.url }}/#sean" },
   "publisher": { "@id": "{{ site.url }}/#sean" },
+  {%- if page.tags and page.tags.size > 0 %}"keywords": {{ page.tags | join: ", " | jsonify }},
+  {% endif -%}
   "inLanguage": "en"
 }
 </script>

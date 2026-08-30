@@ -10,6 +10,7 @@ categories:
   - Books
   - Business
   - Finance
+tags: [Finance]
 ---
 I no longer work as a financial professional. I am a software developer. Nevertheless, a deluge of articles about <a title="Bitcoin" href="http://bitcoin.org/en/" target="_blank">Bitcoin</a> recently has driven me to write an obligatory blog post memorializing my perspective. Bitcoin is just like the South Sea Bubble and Tulip mania in that the price increases are unsustainable as they are not based on intrinsic value.
 
@@ -18,7 +19,7 @@ I no longer work as a financial professional. I am a software developer. Neverth
 > &nbsp;
 
 <div style="width: 317px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2013/12/Tulipomania.jpg"><img class="   " title="&quot;the Viceroy&quot;" src="/assets/images/seanhelvey/2013/12/Tulipomania.jpg" alt="Tulipomania" width="307" height="464" /></a>
+  <a href="/assets/images/seanhelvey/2013/12/Tulipomania.jpg"><img loading="lazy" decoding="async" class="   " title="&quot;the Viceroy&quot;" src="/assets/images/seanhelvey/2013/12/Tulipomania.jpg" alt="Tulipomania" width="307" height="464" /></a>
 
   <p class="wp-caption-text">
     A tulip, known as &#8220;the Viceroy&#8221;, displayed in a 1637 Dutch catalog. Its bulb cost between 3,000 and 4,150 guilders (florins) depending on size. A skilled craftsman at the time earned about 300 guilders a year. (Nusteling, H. (1985) Welvaart en Werkgelegenheid in Amsterdam)
@@ -41,7 +42,7 @@ Most of my colleagues are obsessed with Bitcoin. The price is displayed directly
 
 &nbsp;
 
-[<img class="aligncenter" src="/assets/images/seanhelvey/2013/12/ON-BC954_bGTCht_NS_20131202161106.jpg" alt="ON-BC954_bGTCht_NS_20131202161106" width="546" height="521" />](/assets/images/seanhelvey/2013/12/ON-BC954_bGTCht_NS_20131202161106.jpg)
+[<img loading="lazy" decoding="async" class="aligncenter" src="/assets/images/seanhelvey/2013/12/ON-BC954_bGTCht_NS_20131202161106.jpg" alt="ON-BC954_bGTCht_NS_20131202161106" width="546" height="521" />](/assets/images/seanhelvey/2013/12/ON-BC954_bGTCht_NS_20131202161106.jpg)
 
 &nbsp;
 

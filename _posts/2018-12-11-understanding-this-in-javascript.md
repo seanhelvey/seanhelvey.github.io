@@ -3,13 +3,13 @@ layout: post
 title:  "Understanding 'this' in JavaScript"
 date:  2018-12-11
 permalink: /:title/
+tags: [JavaScript]
 ---
-
 Here is a snippet that you can use to understand `this` in JavaScript. Make sure you have the console open and read the logs as you click on the buttons. The code is [here in GitHub](https://github.com/seanhelvey/snippets/tree/master/this) as well.
 
 <div class="sean-blog-image">
   <figure>
-    <a href="" target="_blank"><img alt="todo" class=" lazyloaded" src="/assets/images/seanhelvey/2018/thisES56.png">
+    <a href="/assets/images/seanhelvey/2018/thisES56.png" target="_blank"><img loading="lazy" decoding="async" alt="Browser console output comparing two buttons: the ES5 handler logs this.age as NaN, while the ES6 arrow function logs this.age as 56" class=" lazyloaded" src="/assets/images/seanhelvey/2018/thisES56.png">
     </a>
   <figcaption>
     this.age works as expected with an ES6 arrow function
@@ -17,7 +17,7 @@ Here is a snippet that you can use to understand `this` in JavaScript. Make sure
   </figure>
 </div>
 
-# Why 'this' example?
+## Why 'this' example?
 
 This example is helpful because it doesn't need to be transpiled. It works with vanilla JS today in current browsers. Most students these days are working in a React codebase where they can magically write a method as an arrow function, but the [class fields proposal](https://github.com/tc39/proposal-class-fields) isn't official yet. Here is [a Stack Overflow answer](https://stackoverflow.com/questions/45785117/arrow-functions-within-classes-are-not-supported-in-chrome-but-work-fine-through#answer-45788648) explaining that with more context.
 

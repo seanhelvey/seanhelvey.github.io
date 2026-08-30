@@ -1,53 +1,84 @@
+@use "variables" as *;
+
 /**
  * Site header
  */
+// minima put a 5px slab across the top of every page. Removing it and letting
+// the hairline rule do the work is most of what dates the masthead.
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
+    border-bottom: 1px solid var(--rule);
     position: relative;
+
+    // The markup is unchanged; the wrapper just stops being a float context.
+    > .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: $space-4;
+        min-height: 64px;
+
+        // .wrapper carries a clearfix ::after for the old float layout. In a
+        // flex container that empty pseudo-element becomes a third flex item,
+        // and space-between parks it at the right edge, pushing the nav into
+        // the middle of the header instead of flush right.
+        &::after {
+            content: none;
+        }
+    }
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: 1.1875rem;
+    font-weight: 650;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: var(--text);
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: var(--link);
     }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    display: flex;
+    align-items: center;
+    gap: $space-4;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: var(--muted);
+        font-size: 0.9375rem;
+        font-weight: 550;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        &:hover {
+            color: var(--text);
+            text-decoration: none;
         }
     }
 
+    .trigger {
+        display: flex;
+        align-items: center;
+        gap: $space-4;
+    }
+
     @include media-query($on-palm) {
+        display: block;
         position: absolute;
         top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        right: $spacing-unit * 0.5;
+        background-color: var(--bg);
+        border: 1px solid var(--rule);
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +96,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: var(--strong-muted);
                 }
             }
         }
@@ -75,7 +106,8 @@
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover .trigger,
+        &:focus-within .trigger {
             display: block;
             padding-bottom: 5px;
         }
@@ -98,13 +130,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid var(--rule);
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 0.5;
 }
 
 .contact-list,
@@ -117,9 +149,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: $spacing-unit / 2;
+    gap: $spacing-unit * 0.5;
     font-size: 15px;
-    color: $grey-color;
+    color: var(--muted);
 }
 
 .footer-list {
@@ -129,13 +161,13 @@
 }
 
 .footer-list li {
-    margin-bottom: $spacing-unit / 4;
+    margin-bottom: $spacing-unit * 0.25;
 }
 
 .footer-social {
     display: flex;
     flex-wrap: wrap;
-    gap: $spacing-unit / 2;
+    gap: $spacing-unit * 0.5;
 }
 
 .footer-social li {
@@ -152,7 +184,8 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 2.125rem;
+    margin-bottom: $space-5;
 }
 
 .post-list {
@@ -166,16 +199,18 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: var(--muted);
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 1.375rem;
+    font-weight: 650;
+    letter-spacing: -0.02em;
 }
 
 .post-list-subtitle {
-    color: $grey-color;
+    color: var(--muted);
 }
 
 
@@ -188,18 +223,21 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 2.75rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+    margin-bottom: 0;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 2.125rem;
     }
 }
 
 .post-subtitle {
-    font-size: 22px;
-    color: $grey-color;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: var(--muted);
     line-height: 1.3;
     margin-top: 8px;
     margin-bottom: 0;
@@ -209,32 +247,11 @@
     }
 }
 
+// Heading sizes come from the scale in _base.scss. These used to be set here in
+// px, which made an in-post h2 (32px) almost the size of the page title and
+// left no step down to h3.
 .post-content {
     margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }
 
 /**
@@ -242,4 +259,36 @@
  */
 .newsletter-cta {
     margin: $spacing-unit 0;
+}
+
+// The signup form is a third-party embed, but it exposes its own custom
+// properties, so it can be themed by redefining them rather than by boxing it
+// in a card. Two scopes matter: the outer container carries the page colours,
+// and the form element carries the field and button colours. The embed sets the
+// second group directly on `.emailoctopus-form`, so they have to be redefined
+// on that same element rather than inherited from an ancestor.
+@media (prefers-color-scheme: dark) {
+  .newsletter-cta [data-form] {
+    --background-color: var(--callout-bg);
+    --border-color:     var(--rule);
+    --text-colour:      var(--text);
+  }
+
+  .newsletter-cta [data-form] .emailoctopus-form {
+    --field-colour:        #232830;
+    --field-border-colour: var(--rule);
+    --label-colour:        var(--muted);
+    --button-colour:       var(--accent);
+    --button-text-colour:  var(--on-accent);
+  }
+
+  // The field's text colour is hardcoded on .form-control rather than taken
+  // from a property, so it needs an explicit rule that outranks theirs.
+  .newsletter-cta [data-form] .emailoctopus-form .form-control {
+    color: var(--text);
+  }
+
+  .newsletter-cta [data-form] .emailoctopus-form .form-control::placeholder {
+    color: var(--muted);
+  }
 }

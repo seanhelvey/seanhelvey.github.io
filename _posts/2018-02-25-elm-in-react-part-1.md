@@ -3,8 +3,8 @@ layout: post
 title:  "Elm in React Part #1"
 date:  2018-02-25-elm-in-react-part-1.md
 permalink: /:title/
+tags: [JavaScript]
 ---
-
 This post will expand upon [Evan's post](http://elm-lang.org/blog/how-to-use-elm-at-work) describing how to use Elm with React. I've been using this todo list example to teach react for a while now (thanks [Chad](https://twitter.com/chadwithuhc)!) so I thought it would make sense to use the same example here. Checkout the Elm branch of the todo list repo linked above if you want to follow along.
 
 We need to do a few things to add Elm into our react app:
@@ -15,7 +15,7 @@ We need to do a few things to add Elm into our react app:
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/todo.png" target="_blank"><img alt="todo" class=" lazyloaded" src="/assets/images/seanhelvey/2018/todo.png">
+    <a href="/assets/images/seanhelvey/2018/todo.png" target="_blank"><img loading="lazy" decoding="async" alt="A To Do list app listing Laundry, Feed Dog, and Mow Lawn, each with a Delete button, above a form with a Title field" class=" lazyloaded" src="/assets/images/seanhelvey/2018/todo.png">
     </a>
   <figcaption>
     A simple todo list
@@ -30,7 +30,7 @@ Step one above doesn't need explaining, but I'll describe steps 2-4 in more deta
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/webpack.png" target="_blank"><img alt="webpack" class=" lazyloaded" src="/assets/images/seanhelvey/2018/webpack.png">
+    <a href="/assets/images/seanhelvey/2018/webpack.png" target="_blank"><img loading="lazy" decoding="async" alt="webpack" class=" lazyloaded" src="/assets/images/seanhelvey/2018/webpack.png">
     </a>
   <figcaption>
     Add the elm-webpack-loader and noParse lines. Note that the syntax has changed so that we must specify "elm-webpack-loader" rather than just "elm-webpack" as Evan and Richard had in their example.
@@ -53,7 +53,7 @@ Now we can easily replace the React component in our `app.js` file with Elm:
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/app.png" target="_blank"><img alt="app" class=" lazyloaded" src="/assets/images/seanhelvey/2018/app.png">
+    <a href="/assets/images/seanhelvey/2018/app.png" target="_blank"><img loading="lazy" decoding="async" alt="app" class=" lazyloaded" src="/assets/images/seanhelvey/2018/app.png">
     </a>
   <figcaption>
     Replace the React component in `app.js` with Elm
@@ -63,7 +63,7 @@ Now we can easily replace the React component in our `app.js` file with Elm:
 
 <div class="sean-blog-image">
   <figure>
-    <a href="/assets/images/seanhelvey/2018/addCard.png" target="_blank"><img alt="addCard" class=" lazyloaded" src="/assets/images/seanhelvey/2018/addCard.png">
+    <a href="/assets/images/seanhelvey/2018/addCard.png" target="_blank"><img loading="lazy" decoding="async" alt="addCard" class=" lazyloaded" src="/assets/images/seanhelvey/2018/addCard.png">
     </a>
   <figcaption>
     Our Elm file is hello world for now

@@ -3,8 +3,8 @@ layout: post
 title:  "Notes on The Yoga Sutras"
 date:   2019-12-07-notes-on-the-yoga-sutras.md
 permalink: /:title/
+tags: [Meditation]
 ---
- 
 > "If you can control the rising of the mind into ripples, you will experience Yoga."
 
 I read Sri Swami Satchidananda's translation and commentary on The Yoga Sutras of Patanjali and would like to share my brief notes in case it is helpful. For me, The Sutras are extremely interesting because they are ancient and have been highly influential. The translation and notes are very practical and insightful, so hopefully an even more condensed version here captures some of that.
@@ -17,7 +17,7 @@ Please take my notes with a grain of salt. These are my notes based on another p
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="sutras" class=" lazyloaded" src="/assets/images/seanhelvey/2019/sutras.jpg">
+    <img loading="lazy" decoding="async" alt="sutras" class=" lazyloaded" src="/assets/images/seanhelvey/2019/sutras.jpg">
   </figure>
 </div>
 

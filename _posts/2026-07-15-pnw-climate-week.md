@@ -4,8 +4,8 @@ title:  "PNW Climate Week"
 date:   2026-07-19
 permalink: /:title/
 published: true
+tags: [Climate, Community, Permaculture]
 ---
-
 I came to <a href="https://pnwclimateweek.org/" target="_blank">PNW Climate Week</a> curious how I could better serve the planet. That might mean using my software skills to power an organization focused on environmental impact, conservation, or clean energy. It could also look completely different, part of a more conscious lifestyle spent tending community gardens or helping in ways I have yet to dream up. There are a lot of possibilities!
 
 ## Day 1
@@ -15,19 +15,19 @@ The week kicked off with a full day of panels and workshops around "Empowering L
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
     <a href="/assets/images/seanhelvey/2026/drawing2.jpeg" target="_blank">
-      <img alt="Graphic recording titled &quot;Fall in love with the future&quot;, with vines, a rainbow, and columns labeled nature, energy, transportation, and infrastructure" src="/assets/images/seanhelvey/2026/drawing2.jpeg">
+      <img loading="lazy" decoding="async" alt="Graphic recording titled &quot;Fall in love with the future&quot;, with vines, a rainbow, and columns labeled nature, energy, transportation, and infrastructure" src="/assets/images/seanhelvey/2026/drawing2.jpeg">
     </a>
     <figcaption>Fall in love with the future, by <a href="https://mollychidsey.com/" target="_blank">Molly Chidsey</a></figcaption>
   </figure>
   <figure>
     <a href="/assets/images/seanhelvey/2026/drawing3.jpeg" target="_blank">
-      <img alt="Graphic recording titled &quot;A vision for 2035&quot; with drawings of trees, a wind turbine, the sun, and people holding hands around the word community" src="/assets/images/seanhelvey/2026/drawing3.jpeg">
+      <img loading="lazy" decoding="async" alt="Graphic recording titled &quot;A vision for 2035&quot; with drawings of trees, a wind turbine, the sun, and people holding hands around the word community" src="/assets/images/seanhelvey/2026/drawing3.jpeg">
     </a>
     <figcaption>A vision for 2035, by <a href="https://mollychidsey.com/" target="_blank">Molly Chidsey</a></figcaption>
   </figure>
   <figure>
     <a href="/assets/images/seanhelvey/2026/drawing1.jpeg" target="_blank">
-      <img alt="Butcher paper posters taped to a wood-panelled wall, covered in handwritten notes answering &quot;What did you notice about energy?&quot;" src="/assets/images/seanhelvey/2026/drawing1.jpeg">
+      <img loading="lazy" decoding="async" alt="Butcher paper posters taped to a wood-panelled wall, covered in handwritten notes answering &quot;What did you notice about energy?&quot;" src="/assets/images/seanhelvey/2026/drawing1.jpeg">
     </a>
     <figcaption>Our workshop notes, up on the wall</figcaption>
   </figure>
@@ -44,7 +44,7 @@ Sun, Soil & Sovereignty was an agrivoltaics tour with SHEBA Farm at Oregon State
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/farm2.jpeg" target="_blank">
-      <img alt="A woman in a coral shirt speaks to a group gathered under a pop-up tent at the edge of a field, with a solar panel laid out on a table beside her" src="/assets/images/seanhelvey/2026/farm2.jpeg">
+      <img loading="lazy" decoding="async" alt="A woman in a coral shirt speaks to a group gathered under a pop-up tent at the edge of a field, with a solar panel laid out on a table beside her" src="/assets/images/seanhelvey/2026/farm2.jpeg">
     </a>
     <figcaption>Farm Solar Fit presenting under the tent</figcaption>
   </figure>
@@ -55,7 +55,7 @@ OSU professor <a href="https://agsci.oregonstate.edu/users/chad-higgins" target=
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/farm1.jpeg" target="_blank">
-      <img alt="A man in a red shirt stands with his arms outstretched between two long rows of solar panels, speaking to a crowd in a grassy field" src="/assets/images/seanhelvey/2026/farm1.jpeg">
+      <img loading="lazy" decoding="async" alt="A man in a red shirt stands with his arms outstretched between two long rows of solar panels, speaking to a crowd in a grassy field" src="/assets/images/seanhelvey/2026/farm1.jpeg">
     </a>
     <figcaption>Chad from OSU showing us the crops growing between the panels</figcaption>
   </figure>
@@ -68,7 +68,7 @@ Itanna Murphy and Dr. Ardelia Clarke could not have been more welcoming. Itanna 
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/movie2.jpeg" target="_blank">
-      <img alt="Four panelists sit on stools on a theater stage below a large screen showing headshots and titles for the Youth Panel Discussion" src="/assets/images/seanhelvey/2026/movie2.jpeg">
+      <img loading="lazy" decoding="async" alt="Four panelists sit on stools on a theater stage below a large screen showing headshots and titles for the Youth Panel Discussion" src="/assets/images/seanhelvey/2026/movie2.jpeg">
     </a>
     <figcaption>The youth panel at the Mission Theater</figcaption>
   </figure>
@@ -83,7 +83,7 @@ Erin Kester, who was volunteering that night, was so friendly and went out of he
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/day3-1.jpeg" target="_blank">
-      <img alt="The ReBuilding Center sign, with each letter built from salvaged tools, bike wheels, saw blades, and scrap metal" src="/assets/images/seanhelvey/2026/day3-1.jpeg">
+      <img loading="lazy" decoding="async" alt="The ReBuilding Center sign, with each letter built from salvaged tools, bike wheels, saw blades, and scrap metal" src="/assets/images/seanhelvey/2026/day3-1.jpeg">
     </a>
     <figcaption>Every letter of the sign is salvage</figcaption>
   </figure>
@@ -94,7 +94,7 @@ I also attended a fireside chat with <a href="https://www.depave.org" target="_b
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/day3-2.jpeg" target="_blank">
-      <img alt="An audience in folding chairs watches a speaker with a microphone beside a vintage Airstream trailer, with a site plan projected on a screen" src="/assets/images/seanhelvey/2026/day3-2.jpeg">
+      <img loading="lazy" decoding="async" alt="An audience in folding chairs watches a speaker with a microphone beside a vintage Airstream trailer, with a site plan projected on a screen" src="/assets/images/seanhelvey/2026/day3-2.jpeg">
     </a>
     <figcaption>The Depave chat at the Glass Lab</figcaption>
   </figure>

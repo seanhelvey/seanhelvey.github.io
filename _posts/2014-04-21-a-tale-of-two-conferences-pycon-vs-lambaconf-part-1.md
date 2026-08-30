@@ -10,11 +10,12 @@ categories:
   - Community
   - Life
   - Technology
+tags: [Python]
 ---
 Over the course of the last week I attended both PyCon in Montreal and <a title="LambdaConf" href="http://www.degoesconsulting.com/lambdaconf/" target="_blank">LamdaConf</a> right here in Boulder. I have always enjoyed using Python, but thanks to <a title="one outstanding professor" href="http://www.coryplock.com/" target="_blank">one outstanding professor</a>, I also have very fond memories of functional programming and lambda calculus from grad school. Both conferences were amazing, and there were similarities between the communities, but these are two fundamentally different styles of programming.
 
 <div style="width: 410px" class="wp-caption aligncenter">
-  <a href="http://3.bp.blogspot.com/-O8pU1eLknqg/Uf_2LlOsGWI/AAAAAAAAHoU/COz3NOtX-Q8/s1600/turingmachine.gif"><img src="http://3.bp.blogspot.com/-O8pU1eLknqg/Uf_2LlOsGWI/AAAAAAAAHoU/COz3NOtX-Q8/s1600/turingmachine.gif" alt="" width="400" height="274" /></a>
+  <a href="/assets/images/seanhelvey/archived/turing-machine.gif"><img loading="lazy" decoding="async" src="/assets/images/seanhelvey/archived/turing-machine.gif" alt="" width="400" height="274" /></a>
 
   <p class="wp-caption-text">
     Computation, Church-Turing, and all that jazz &#8211; Massimo Pigliucci
@@ -31,7 +32,7 @@ My favorite talk was &#8220;All Your Ducks In A Row: Data Structures in the Stan
 I was blown away by the keynote from <a title="Jessica McKellar" href="http://pyvideo.org/video/2684/keynote-jessica-mckellar" target="_blank">Jessica McKellar</a>. Hearing the story of one teacher making such a large impact with computer science students actually made me emotional. The most entertaining keynote by far, however, was given by Guido Van Rossom. He decided to do some live coding, and in the midst of debugging his program, made a few comments about static typing and compilers which will stick with me for a while.
 
 <div id="attachment_587" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2014/04/photo1.jpg"><img class="wp-image-587 size-medium" src="/assets/images/seanhelvey/2014/04/photo1-300x225.jpg" alt="Guido's Keynote" width="300" height="225" srcset="/assets/images/seanhelvey/2014/04/photo1-300x225.jpg 300w, /assets/images/seanhelvey/2014/04/photo1.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2014/04/photo1.jpg"><img loading="lazy" decoding="async" class="wp-image-587 size-medium" src="/assets/images/seanhelvey/2014/04/photo1-300x225.jpg" alt="Guido's Keynote" width="300" height="225" srcset="/assets/images/seanhelvey/2014/04/photo1-300x225.jpg 300w, /assets/images/seanhelvey/2014/04/photo1.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Guido&#8217;s Keynote

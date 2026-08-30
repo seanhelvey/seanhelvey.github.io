@@ -3,8 +3,8 @@ layout: post
 title:  "Tips From a FP Noob"
 date:   2017-10-21-tips-from-a-fp-noob.md
 permalink: /:title/
+tags: [Community]
 ---
-
 Functional programming is amazing! Huge thanks to the professors, colleagues, and friends who have helped me appreciate that. In this post I will humbly share four tips I've picked up along the way:
 1. Play with a passion project
 2. Ask the right questions
@@ -13,7 +13,7 @@ Functional programming is amazing! Huge thanks to the professors, colleagues, an
 
 <div class="sean-blog-image">
   <figure>
-    <a href="http://knowyourmeme.com/photos/969154-you-either-die-a-hero-or-you-live-long-enough-to-see-yourself-become-the-villain" target="_blank"><img alt="Noob gif" class=" lazyloaded" src="/assets/images/seanhelvey/2017/noob.jpg">
+    <a href="http://knowyourmeme.com/photos/969154-you-either-die-a-hero-or-you-live-long-enough-to-see-yourself-become-the-villain" target="_blank"><img loading="lazy" decoding="async" alt="Noob gif" class=" lazyloaded" src="/assets/images/seanhelvey/2017/noob.jpg">
     </a>
   </figure>
 </div>

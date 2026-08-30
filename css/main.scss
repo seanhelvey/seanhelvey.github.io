@@ -3,55 +3,14 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-$accent-color:     #2f6b4f;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+// `@use`, not `@import`: @import is deprecated and removed in Dart Sass 3.0.
+// Load order matches what the old @import produced, tokens first so the custom
+// properties are defined before anything reads them.
+@use "variables" as *;
+@use "tokens";
+@use "base";
+@use "layout";
+@use "syntax-highlighting";
 
 .wp-caption, .aligncenter, img {
     margin: 0 auto;
@@ -102,7 +61,7 @@ $on-laptop:        800px;
   figcaption {
     margin-top: 0.5em;
     text-align: center;
-    color: $grey-color-dark;
+    color: var(--strong-muted);
   }
 
   @include media-query($on-palm) {
@@ -126,8 +85,8 @@ $on-laptop:        800px;
   max-width: min(100%, 480px);
   margin: 2.5em auto;
   padding: 1.5em 1.75em;
-  background-color: #f6f5f0;
-  border-left: 4px solid $accent-color;
+  background-color: var(--callout-bg);
+  border-left: 4px solid var(--accent);
   border-radius: 4px;
 
   h4 {
@@ -135,7 +94,7 @@ $on-laptop:        800px;
     font-size: 13px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: $accent-color;
+    color: var(--accent);
 
     // A sourced heading should read as one line, not two colours.
     a {
@@ -155,7 +114,7 @@ $on-laptop:        800px;
     padding-left: 1.1em;
     font-style: italic;
     line-height: 1.4;
-    color: $text-color;
+    color: var(--text);
   }
 
   li:last-child {
@@ -166,7 +125,7 @@ $on-laptop:        800px;
     content: "\2022";
     position: absolute;
     left: 0;
-    color: $accent-color;
+    color: var(--accent);
   }
 }
 
@@ -184,7 +143,7 @@ $on-laptop:        800px;
   figcaption {
     margin-top: 0.5em;
     text-align: center;
-    color: $grey-color-dark;
+    color: var(--strong-muted);
   }
 
   @include media-query($on-palm) {
@@ -230,16 +189,20 @@ $on-laptop:        800px;
     text-align: center;
   }
 
-  /* uniform image slot so logos sit centered and balanced regardless of shape */
+  // Logos are supplied on white grounds, so they get an explicit white tile in
+  // both themes rather than a dark-mode-only mat. One tile size for all of them:
+  // Lull is square, Galvanize is a wide wordmark, and without a fixed tile they
+  // read as mismatched white stickers on a dark page. box-sizing matters, the
+  // padding used to push each tile past its cell.
   .container:not(.work-screens) .section img {
+    box-sizing: border-box;
     width: 100%;
-    height: 96px;
+    height: 104px;
+    padding: 0.85em 1em;
+    background-color: #fff;
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
     object-fit: contain;
-  }
-
-  /* education logos are higher-res, so give them a bit more room */
-  .container.edu .section img {
-    height: 120px;
   }
 
   @media (max-width: 768px) { /*breakpoint*/
@@ -247,16 +210,9 @@ $on-laptop:        800px;
       flex-direction: column;
     }
 
-    /* native size on mobile (downscale only) so low-res logos stay crisp */
+    // Stacked in one column, so the tile can be shorter and full width.
     .container:not(.work-screens) .section img {
-      width: auto;
-      height: auto;
-      max-width: 100%;
-      max-height: 120px;
-    }
-
-    .container.edu .section img {
-      max-height: 150px;
+      height: 96px;
     }
 
     .index-hero {
@@ -284,9 +240,14 @@ $on-laptop:        800px;
     margin: 0 0 0.5em;
   }
 
+.hero-status {
+    margin: 1em 0 0;
+    font-weight: 600;
+  }
+
 .hero-framing {
     font-size: 16px;
-    color: $grey-color;
+    color: var(--muted);
     margin: 0;
     line-height: 1.6;
   }
@@ -299,10 +260,16 @@ $on-laptop:        800px;
       line-height: 1.7;
     }
 
-    h3 {
-      font-size: 18px;
-      font-weight: 600;
-      margin: 2em 0 0.6em;
+    > h2 {
+      margin: $space-5 0 $space-3;
+    }
+
+    > h2:first-child {
+      margin-top: 0;
+    }
+
+    > h3 {
+      margin: $space-4 0 $space-2;
     }
 
     ul {
@@ -312,20 +279,20 @@ $on-laptop:        800px;
   }
 
 .section {
-    h2 {
+    h3 {
       font-size: 17px;
       font-weight: 600;
       margin: 0 0 0.15em;
     }
 
-    h2 a {
+    h3 a {
       text-decoration: none;
       color: inherit;
     }
 
     p {
       font-size: 13px;
-      color: $grey-color;
+      color: var(--muted);
       margin: 0 0 0.6em;
     }
   }
@@ -335,16 +302,16 @@ $on-laptop:        800px;
     height: 150px;
     object-fit: cover;
     object-position: top;
-    border: 1px solid #eee;
+    border: 1px solid var(--hairline);
     border-radius: 4px;
   }
 
 .testimonial {
-    border-left: 3px solid #ddd;
+    border-left: 3px solid var(--quote-rule);
     margin: 1.5em 0;
     padding: 0.2em 0 0.2em 1.2em;
     font-style: italic;
-    color: #555;
+    color: var(--quote-text);
     line-height: 1.6;
 
     cite {
@@ -352,7 +319,7 @@ $on-laptop:        800px;
       margin-top: 0.6em;
       font-style: normal;
       font-size: 13px;
-      color: $grey-color;
+      color: var(--muted);
     }
   }
 // A short post whose only job is to send the reader somewhere else.
@@ -370,8 +337,8 @@ $on-laptop:        800px;
     // width:100% plus padding and a border overflows a content-box, which leaks
     // past the column on a phone. Fold the mat and the edge back inside.
     box-sizing: border-box;
-    background-color: #fff;
-    border: 1px solid $grey-color-light;
+    background-color: var(--mat);
+    border: 1px solid var(--rule);
     padding: 0.75em;
   }
 
@@ -388,9 +355,9 @@ $on-laptop:        800px;
   .go {
     display: block;
     padding: 1.1em 1.5em;
-    background-color: $accent-color;
+    background-color: var(--accent);
     border-radius: 6px;
-    color: #fff;
+    color: var(--on-accent);
     font-size: 19px;
     font-weight: 700;
     text-align: center;
@@ -399,8 +366,8 @@ $on-laptop:        800px;
 
   .go:hover,
   .go:focus {
-    background-color: darken($accent-color, 8%);
-    color: #fff;
+    background-color: var(--accent-hover);
+    color: var(--on-accent);
     text-decoration: none;
   }
 
@@ -409,6 +376,268 @@ $on-laptop:        800px;
     margin-top: 0.8em;
     font-size: 14px;
     text-align: center;
-    color: $grey-color-dark;
+    color: var(--strong-muted);
   }
+}
+
+
+// ---------------------------------------------------------------------------
+// Reading measure. The column was 740px, about 92 characters a line, roughly a
+// quarter wider than the 45-75 that reads comfortably. Text is capped in `em`
+// so it tracks the reader's own font size; figures, galleries and code keep the
+// full column, which is the point of capping the text rather than the wrapper.
+// ---------------------------------------------------------------------------
+.post-content,
+.about-arc,
+.post-list {
+  > p,
+  > ul,
+  > ol,
+  > dl,
+  > blockquote,
+  > h1, > h2, > h3, > h4, > h5, > h6 {
+    max-width: 38em;
+  }
+
+  > p,
+  > ul,
+  > ol {
+    line-height: 1.7;
+  }
+}
+
+.post-header {
+  .post-title,
+  .post-subtitle {
+    max-width: 38em;
+  }
+}
+
+
+// Keep-reading block at the foot of every post. Neighbours are derived from
+// shared topics (see _includes/more-writing.html), which is what pulls older
+// posts back up instead of leaving them to sink down the index.
+.more-writing {
+  max-width: 38em;
+  margin: 3em 0 0;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--rule);
+
+  h2 {
+    margin: 0 0 0.5em;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 0.55em;
+    line-height: 1.4;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.more-writing-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.4em;
+  align-items: baseline;
+}
+
+.more-writing-count {
+  margin-left: 0.35em;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+
+// Keyboard access. The site had no visible focus indicator at all, which is a
+// WCAG 2.4.7 failure and makes tabbing through a page invisible work.
+:focus-visible {
+  outline: 3px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// Off screen until tabbed to, then the first stop on every page so a keyboard
+// or screen-reader user is not walked through the masthead on all 58 posts.
+// Mobile hardening. The archive is imported WordPress markup: 14 tables and 29
+// images carrying inline width/height attributes, none of it written with a
+// phone in mind.
+//
+// A table cannot be made narrow, so it scrolls inside its own box rather than
+// pushing the whole page sideways.
+.post-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.4em 0.7em;
+  border: 1px solid var(--rule);
+  text-align: left;
+}
+
+.post-content th {
+  font-weight: 650;
+}
+
+// Inline width= and height= attributes plus max-width:100% squash the aspect
+// ratio on any screen narrower than the attribute. height:auto restores it.
+img {
+  height: auto;
+}
+
+// A bare URL in prose is one long word and will push the column open on a
+// phone. Applies to prose only, so it cannot break code blocks or nav.
+.post-content,
+.about-arc {
+  overflow-wrap: break-word;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 100;
+  padding: 0.6em 1em;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
+
+// The landmark takes focus when the skip link is used; it should not then draw
+// an outline around the whole page.
+main:focus {
+  outline: none;
+}
+
+// Respect the reader's motion setting. The gallery cross-fades on hover.
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+// The homepage had no outbound link in its body: a photo, a paragraph and a
+// signup form. Someone convinced by the hero had nowhere to go but the nav.
+// The picks are curated in _data/featured.yml, not taken from the top of the
+// archive, so what a first-time reader lands on is a decision and not a date.
+.home-featured {
+  max-width: 38em;
+  margin: 3em 0 0;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--rule);
+
+  h2 {
+    margin: 0 0 1em;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+}
+
+.home-featured-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 1.2em;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home-featured-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.home-featured-date {
+  display: block;
+  margin-top: 0.15em;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.home-featured-sub {
+  margin: 0.3em 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--strong-muted);
+}
+
+.home-featured-all {
+  margin: 1.6em 0 0;
+  font-weight: 600;
+}
+
+
+// Topics sit on the post's meta line, under the title. They link to their topic
+// page now, so no pill and no border, but they carry the accent so they read as
+// classification and not as more grey furniture.
+.post-topic {
+  color: var(--accent);
+  font-weight: 600;
+
+  &:visited {
+    color: var(--accent);
+  }
+
+  &:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+}
+
+.topic-count {
+  color: var(--muted);
+  margin-bottom: 2em;
+}
+
+.post-topic + .post-topic {
+  margin-left: 0.15em;
+}
+
+.post-topic::before {
+  content: "·";
+  margin: 0 0.45em 0 0.3em;
+  color: var(--muted);
+  font-weight: 400;
 }

@@ -9,6 +9,7 @@ permalink: /deploying-node-js-on-heroku/
 categories:
   - Libraries and Frameworks
   - Technology
+tags: [JavaScript, DevOps]
 ---
 I encountered a few gotchas that I wanted to share while hacking on Node.js this weekend. The tutorials available at <a title="nodejs.org" href="http://nodejs.org/" target="_blank">nodejs.org</a> are extremely thorough and very helpful, but you may run into some of the same issues that I did when expanding from your basic &#8220;hello world&#8221; application. First we will discuss Node.js specifically and then we will move on to deployment with Heroku.
 

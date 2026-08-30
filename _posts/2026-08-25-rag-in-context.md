@@ -8,14 +8,14 @@ date:   2026-08-25
 permalink: /:title/
 micropost: true
 published: true
+tags: [AI]
 ---
-
 RAG gets a language model to answer questions from documents it was never trained on, by finding the right passages and pasting them into the prompt. Most of what makes the searching work predates the models, so <a href="https://github.com/seanhelvey/rag-in-context/blob/main/rag.ipynb">this notebook</a> connects it back to ideas that have been around a lot longer.
 
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
     <a href="https://github.com/seanhelvey/rag-in-context/blob/main/rag.ipynb">
-      <img alt="Two rows. The top runs once whenever the documents change: corpus, chunk, embed, vectors. The bottom runs for every question: question, keyword plus meaning search, fuse, rerank, prompt, answer" src="/assets/images/seanhelvey/2026/rag-pipeline.png">
+      <img loading="lazy" decoding="async" alt="Two rows. The top runs once whenever the documents change: corpus, chunk, embed, vectors. The bottom runs for every question: question, keyword plus meaning search, fuse, rerank, prompt, answer" src="/assets/images/seanhelvey/2026/rag-pipeline.png">
     </a>
     <figcaption>The top row runs once whenever the documents change, the bottom row for every question</figcaption>
   </figure>

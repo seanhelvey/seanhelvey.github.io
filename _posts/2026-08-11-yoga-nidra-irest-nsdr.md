@@ -4,8 +4,8 @@ title:  "Yoga Nidra, iRest, NSDR"
 date:   2026-08-11
 permalink: /:title/
 published: true
+tags: [Meditation]
 ---
-
 On the weekend before <a href="/pnw-climate-week/">PNW Climate Week</a> I attended a Beginner's Mind retreat at Great Vow Zen Monastery. The combination of mindfulness while working in the kitchen and garden was exactly what I have been looking for, but the hours in the car and on the cushion were hard on my body. While I know that a sitting practice is important for my mental health, and still find walking meditation very useful, what I keep returning to is <a href="/meditation/">meditation</a> I can do on my back. Yoga Nidra, iRest, and NSDR are three names for roughly the same thing, arrived at from very different directions. Each of them has become a real alternative to sitting for me.
 
 The oldest of the three is pretty similar to savasana at the end of a <a href="/teaching-yoga/">yoga class</a>. Yoga nidra keeps you there for half an hour or more, scanning the whole body with awareness. I use it as a break from work or to wind down in the evening, and I come out clearer than a nap leaves me.
@@ -14,7 +14,7 @@ Yoga nidra goes back to the <a href="https://en.wikipedia.org/wiki/Mandukya_Upan
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
     <a href="/assets/images/seanhelvey/2026/VishnuAnanta1870.jpg" target="_blank">
-      <img style="max-width: 709px; margin: 0 auto; display: block;" alt="An Indian painting of Vishnu reclining on the coiled white serpent Ananta in a blue ocean, Brahma seated on a lotus growing from his navel, and Lakshmi kneeling in red at his feet" src="/assets/images/seanhelvey/2026/VishnuAnanta1870.jpg">
+      <img loading="lazy" decoding="async" style="max-width: 709px; margin: 0 auto; display: block;" alt="An Indian painting of Vishnu reclining on the coiled white serpent Ananta in a blue ocean, Brahma seated on a lotus growing from his navel, and Lakshmi kneeling in red at his feet" src="/assets/images/seanhelvey/2026/VishnuAnanta1870.jpg">
     </a>
     <figcaption>Vishnu asleep on the serpent Ananta, dreaming the universe, with Lakshmi at his feet. Indian painting, about 1870, Victoria and Albert Museum.</figcaption>
   </figure>

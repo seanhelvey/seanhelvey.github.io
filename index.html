@@ -17,9 +17,38 @@ description: "Sean Helvey is a software engineer with fifteen years of experienc
       <p class="hero-framing">
         Fifteen years solving problems with code, a lifelong contemplative practice, and a growing interest in public service. I'm currently open to a new role putting engineering to work on 🌳 climate, 👥 social services, or 📚 education, and would gladly join any mission-driven team building a more sustainable future.
       </p>
+      <p class="hero-status">
+        <a href="/the-next-step/">Currently looking for my next role &#8594;</a>
+      </p>
     </div>
 
   </div>
+
+  {%- comment -%}
+    Hand-picked in _data/featured.yml rather than taken from the top of the
+    archive, so the homepage does not change meaning every time a post goes up.
+  {%- endcomment -%}
+  <section class="home-featured" aria-labelledby="home-featured-heading">
+    <h2 id="home-featured-heading">Start here</h2>
+
+    <ul class="home-featured-list">
+      {%- for item in site.data.featured %}
+      {%- assign post = site.posts | where: "url", item.url | first %}
+      {%- if post %}
+      <li>
+        <a class="home-featured-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="home-featured-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {%- assign blurb = item.blurb | default: post.subtitle %}
+        {%- if blurb and blurb != "" %}
+        <p class="home-featured-sub">{{ blurb }}</p>
+        {%- endif %}
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+
+    <p class="home-featured-all"><a href="/blog.html">All writing &#8594;</a></p>
+  </section>
 
   {% include newsletter.html %}
 

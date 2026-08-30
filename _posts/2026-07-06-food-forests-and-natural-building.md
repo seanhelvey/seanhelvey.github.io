@@ -4,8 +4,8 @@ title:  "Food Forests and Natural Building"
 date:   2026-07-06
 permalink: /:title/
 # published: false
+tags: [Climate, Permaculture]
 ---
-
 > Our big brains and hands are meant to serve mother earth, not dominate it.
 
 While most people were baking sourdough and watching Netflix during the covid lockdowns, I was streaming permaculture videos. I became obsessed with Kirsten Dirksen's work documenting places like <a href="https://www.youtube.com/watch?v=QcbUN_1lvAA" target="_blank">Occidental Arts & Ecology Center</a> (OAEC) in Northern California and <a href="https://www.youtube.com/watch?v=rBaw3DDN-tg" target="_blank">Andrew Millison's garden</a> in Oregon. It took me 5 years, but last week I finally made it to a food forests course at OAEC, and my YouTube fantasy became a reality. 
@@ -31,7 +31,7 @@ The first day was focused on land acknowledgement, and I was immensely moved by 
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="Kendall teaching at the OAEC food forests course" class="lazyloaded" src="/assets/images/seanhelvey/2026/FoodForest.png">
+    <img loading="lazy" decoding="async" alt="Kendall teaching at the OAEC food forests course" class="lazyloaded" src="/assets/images/seanhelvey/2026/FoodForest.png">
   </figure>
     <figcaption>
       Kendall leading a session
@@ -61,7 +61,7 @@ As luck would have it, right after I got back the <a href="https://humboldtperma
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="Light straw clay natural building workshop" class="lazyloaded" src="/assets/images/seanhelvey/2026/NaturalBuilding.png">
+    <img loading="lazy" decoding="async" alt="Light straw clay natural building workshop" class="lazyloaded" src="/assets/images/seanhelvey/2026/NaturalBuilding.png">
   </figure>
     <figcaption>
       Light straw clay all day

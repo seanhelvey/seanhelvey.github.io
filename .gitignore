@@ -2,7 +2,22 @@
 .jekyll-metadata
 .DS_Store
 assets/images/.DS_Store
-Gemfile.lock
 _site/
-.claude/settings.local.json
-.claude/.cc-writes/
+
+# Local agent tooling, not site source. CLAUDE.md at the root is intentional.
+.claude/
+
+# Editor and shell config that shows up in this working tree but is not site
+# source. Listed explicitly so `git add -A` cannot sweep them in. Note .github/
+# is NOT ignored: the CI workflow lives there.
+.bashrc
+.bash_profile
+.zshrc
+.zprofile
+.profile
+.gitconfig
+.gitmodules
+.ripgreprc
+.mcp.json
+.idea/
+.vscode/

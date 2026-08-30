@@ -12,6 +12,7 @@ categories:
   - Community
   - Entrepreneurship
   - Life
+tags: [Leadership]
 ---
 The notion of &#8220;Servant Leadership&#8221; is timeless. Ancient Chinese and Indian philosophers described the ideal and it is a common thread among many religions.
 
@@ -20,7 +21,7 @@ The notion of &#8220;Servant Leadership&#8221; is timeless. Ancient Chinese and 
 I can remember coming across the concept in a variety of contexts growing up. My parents were the earliest role models in my life, but I also experienced a broad spectrum of teachers, coaches, and managers. Several different subjects touch on this as well. Art history, philosophy, and business classes each offer their own interpretation.
 
 <div style="width: 338px" class="wp-caption aligncenter">
-  <img title="Robert K. Greenleaf" src="http://media-cache-ak0.pinimg.com/736x/e8/9a/a8/e89aa8d70d41e87f0420f989d85cd257.jpg" alt="Robert K. Greenleaf" width="328" height="230" />
+  <img loading="lazy" decoding="async" title="Robert K. Greenleaf" src="/assets/images/seanhelvey/archived/pinboard-quote.jpg" alt="Robert K. Greenleaf" width="328" height="230" />
   
   <p class="wp-caption-text">
     Robert K. Greenleaf
@@ -32,7 +33,7 @@ I had been exploring the idea lately and couldn&#8217;t come up with the right t
 Apparently the idea of the servant as leader came out of reading [Hermann Hesse](http://en.wikipedia.org/wiki/Hermann_Hesse "Hermann Hesse")’s _[Journey to the East](http://en.wikipedia.org/wiki/Journey_to_the_East "Journey to the East")_. The central figure of the story is Leo, who accompanies the party as the servant who does their menial chores, but who also sustains them with his spirit and his song. All goes well until Leo disappears. Then the group falls into disarray and the journey is abandoned. The narrator, one of the party, eventually discovers that Leo is in fact a great and noble leader.
 
 <div style="width: 200px" class="wp-caption aligncenter">
-  <img class=" " src="http://upload.wikimedia.org/wikipedia/en/f/f8/JourneyToTheEast.jpg" alt="Journey to the East" width="190" height="280" />
+  <img loading="lazy" decoding="async" class=" " src="/assets/images/seanhelvey/archived/journey-to-the-east.jpg" alt="Journey to the East" width="190" height="280" />
   
   <p class="wp-caption-text">
     Journey to the East

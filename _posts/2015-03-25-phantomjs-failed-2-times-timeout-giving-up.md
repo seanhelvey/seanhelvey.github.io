@@ -9,12 +9,7 @@ permalink: /phantomjs-failed-2-times-timeout-giving-up/
 categories:
   - Libraries and Frameworks
   - Technology
-tags:
-  - JavaScript
-  - Karma
-  - Node
-  - Node.js
-  - PhantomJS
+tags: []
 ---
 Giving up? There is no giving up in Node.js! Come on..
 

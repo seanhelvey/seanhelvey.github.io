@@ -1,0 +1,73 @@
+@use "variables" as *;
+
+// ---------------------------------------------------------------------------
+// Design tokens as CSS custom properties, not Sass variables: Sass compiles its
+// values in and leaves nothing for the dark palette below to override.
+// Every foreground/background pair here meets WCAG AA on its own theme.
+// ---------------------------------------------------------------------------
+:root {
+  // Tells the browser both palettes exist, so form controls, scrollbars and the
+  // default canvas follow the theme instead of staying light under a dark page.
+  color-scheme: light dark;
+
+  --bg:           #fdfdfd;
+  --text:         #111111;
+  --muted:        #757575;
+  --strong-muted: #353535;
+  --rule:         #dbdbdb;
+  --hairline:     #eeeeee;
+  --quote-rule:   #dddddd;
+  --quote-text:   #555555;
+  --link:         #1f73e0;
+  --link-hover:   #16519d;
+  --accent:       #2f6b4f;
+  --accent-hover: #234f3a;
+  --on-accent:    #ffffff;
+  --callout-bg:   #f6f5f0;
+  --mat:          #ffffff;
+  --code-bg:      #eeeeff;
+  --code-surface: #ffffff;
+  --code-text:    #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:           #16181c;
+    --text:         #e7e9ec;
+    --muted:        #a2a7af;
+    --strong-muted: #c9ced6;
+    --rule:         #2e333a;
+    --hairline:     #262b31;
+    --quote-rule:   #3a4048;
+    --quote-text:   #b6bcc4;
+    --link:         #7ab3f5;
+    --link-hover:   #a3cbf9;
+    --accent:       #6cc094;
+    --accent-hover: #8fd3ae;
+    --on-accent:    #10231a;
+    --callout-bg:   #1d2126;
+    --mat:          #20252b;
+    // Code keeps a light surface in both themes: the Rouge token colours are
+    // tuned dark-on-light and 27 of 47 would need remapping to survive an
+    // inversion, which lands on neon. Softened off white so it reads as paper
+    // rather than glare, with the text colour pinned dark to match.
+    --code-bg:      #e4e4dd;
+    --code-surface: #edece7;
+    --code-text:    #1a1a1a;
+    --embed-card:      #f4f4f2;
+    --embed-card-edge: #d8d8d2;
+  }
+
+  // Photographs are lit for a white page. Take the glare off on a dark one.
+  .sean-blog-image img,
+  .sean-blog-gallery img { filter: brightness(0.92); }
+
+
+  // Client screenshots are photographs, not marks, so they want the glare taken
+  // off like the other images rather than a mat behind them.
+  .work-screens .section img { filter: brightness(0.92); }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)

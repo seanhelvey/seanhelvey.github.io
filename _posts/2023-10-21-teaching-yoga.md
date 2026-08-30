@@ -3,8 +3,8 @@ layout: post
 title:  "Teaching Yoga"
 date:   2023-10-21-teaching-yoga.md
 permalink: /:title/
+tags: [Meditation, Leadership]
 ---
-
 It has been nearly 4 years since my last blog post! In 2019 I had left a job I loved teaching software development in Colorado and moved back to California. After living in New York City from 2007-2012 and then Boulder until 2019, I felt like I was holding my breath in between surf trips, and formed an intention to plant roots on the California coast. 
 
 The transition was much more difficult than anticipated, enduring personal and professional challenges, along with the pandemic. I am so grateful to have built community here in Santa Barbara through that journey. My (remote) work at at <a href="https://www.kfh.org/" target="_blank">Koinonia Family Services</a> played a huge part, channeling passion for technology into a sustainable role. 

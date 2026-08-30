@@ -10,19 +10,12 @@ categories:
   - Community
   - Life
   - Travel
-tags:
-  - Boulder
-  - Colorado
-  - Community
-  - Impact
-  - Stockholm
-  - Sweden
-  - Travel
+tags: [Community, Travel]
 ---
 Travel to a place where you know nobody and instantly become part of the community there. That&#8217;s the experience that I had visiting Stockholm and using the Impact Hub Passport! Everyone from the founder to the hosts and members were extremely friendly and collaborative. This has been the first stop on my journey which will take me to 3 (now 4) hubs in Europe, so it will always have a special place in my heart.
 
 <div id="attachment_1017" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024.jpg"><img class="wp-image-1017 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024-300x225.jpg" alt="thumb_IMG_2313_1024" width="300" height="225" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024-300x225.jpg 300w, /assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024.jpg"><img loading="lazy" decoding="async" class="wp-image-1017 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024-300x225.jpg" alt="thumb_IMG_2313_1024" width="300" height="225" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024-300x225.jpg 300w, /assets/images/seanhelvey/2015/09/thumb_IMG_2313_1024.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Visiting Hubbers
@@ -40,7 +33,7 @@ The space here is incredible and they have interesting ways of getting members i
 The highlight of the trip for me personally was working with Anton Håkansson & Simon Olander Sahlén on their app <a href="https://www.daycape.com/" target="_blank">DayCape</a>, a digital image calendar for children with autism. We hacked on Objective-C together, as they had recently lost their iOS developer.
 
 <div id="attachment_941" style="width: 235px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024.jpg"><img class="wp-image-941 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024-225x300.jpg" alt="thumb_IMG_2224_1024" width="225" height="300" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024-225x300.jpg 225w, /assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024.jpg"><img loading="lazy" decoding="async" class="wp-image-941 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024-225x300.jpg" alt="thumb_IMG_2224_1024" width="225" height="300" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024-225x300.jpg 225w, /assets/images/seanhelvey/2015/09/thumb_IMG_2224_1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
 
   <p class="wp-caption-text">
     Anton & Simon

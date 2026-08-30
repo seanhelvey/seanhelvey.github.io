@@ -17,19 +17,41 @@ github_username:  seanhelvey
 # Build settings
 markdown: kramdown
 
+# dart-sass (Jekyll 4) expands output and writes a source map by default. The
+# site ships one stylesheet and no build step, so compress it and skip the map.
+sass:
+  style: compressed
+  sourcemap: never
+
 plugins:
   - jekyll-sitemap
+  - jekyll-archives
+
+# Topic pages. Tags are written in each post's front matter; this generates one
+# page per tag at the same /topics/<name>/ URLs the custom plugin used.
+jekyll-archives:
+  enabled:
+    - tags
+  layout: topic
+  permalinks:
+    tag: /topics/:name/
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - logocheck
   - README.md
   - CLAUDE.md
   - .claude
 
 # Keep the resume out of the sitemap, matching the noindex on /resume/.
 defaults:
+  # Tag pages are for humans browsing, not for search. They are thin (one to
+  # twelve links) and they restate what /blog.html already lists, so Google
+  # would file most of them under "Crawled - currently not indexed" anyway.
+  # Excluding them on purpose keeps Search Console quiet. `follow` matters:
+  # crawlers still walk the links, so the pages keep doing their internal
+  # linking job. Sitemap exclusion has to go with it, since a noindexed URL
+  # left in the sitemap is reported as an error rather than ignored.
   - scope:
       path: "assets/HelveyResume2026.pdf"
     values:

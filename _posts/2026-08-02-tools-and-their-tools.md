@@ -5,8 +5,8 @@ subtitle: "Men have become the tools of their tools"
 date:   2026-08-02
 permalink: /:title/
 published: True
+tags: [AI]
 ---
-
 Michael Pollan has written about everything from mushrooms to apples and corn, but his coevolutionary story of how tulips and humans shaped each other may have been the most prescient given recent market parallels. GPU compute powering crypto for the last decade has spilled over into a bigger boom in language models. From bulbs, to coins, and now tokens. With animal spirits driving markets higher and CEOs blaming artificial intelligence for layoffs, who is using whom? AI, like the apple and corn plants, is gleefully spreading its seed while we prompt for another sweet hit of dopamine.
 
 > "Things are in the saddle and ride mankind." &#8211; Ralph Waldo Emerson
@@ -16,7 +16,7 @@ The reductionist worldview that species are simply carriers of DNA hardly explai
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
     <a href="/assets/images/seanhelvey/2026/MechanicalTurk.jpg" target="_blank">
-      <img alt="A hand colored 1789 engraving showing a cutaway of the Mechanical Turk chess automaton, with a turbaned figure seated at a chessboard above and a man hidden inside the cabinet below working the levers" src="/assets/images/seanhelvey/2026/MechanicalTurk.jpg">
+      <img loading="lazy" decoding="async" alt="A hand colored 1789 engraving showing a cutaway of the Mechanical Turk chess automaton, with a turbaned figure seated at a chessboard above and a man hidden inside the cabinet below working the levers" src="/assets/images/seanhelvey/2026/MechanicalTurk.jpg">
     </a>
     <figcaption>It turns out Claude is not actually a real human. Racknitz's cutaway of the Mechanical Turk, 1789.</figcaption>
   </figure>
@@ -44,7 +44,7 @@ Anecdotally I see agents searching the web not once but 5-10 times because the m
 <div class="sean-blog-gallery sean-blog-gallery-stack">
   <figure>
     <a href="/assets/images/seanhelvey/2026/DataCenterMap.png" target="_blank">
-      <img alt="A map of the United States covered in red markers showing places where community members reported concerns about AI data centers, alongside counts of 33 operational, 66 under construction and 47 proposed facilities" src="/assets/images/seanhelvey/2026/DataCenterMap.png">
+      <img loading="lazy" decoding="async" alt="A map of the United States covered in red markers showing places where community members reported concerns about AI data centers, alongside counts of 33 operational, 66 under construction and 47 proposed facilities" src="/assets/images/seanhelvey/2026/DataCenterMap.png">
     </a>
     <figcaption>33 operational, 66 under construction, and 8,837 places where people wrote in with concerns. The <a href="https://brockovichdatacenter.com/" target="_blank">data center map</a>, July 2026.</figcaption>
   </figure>
@@ -55,7 +55,7 @@ Lyla June said at a recent <a href="/food-forests-and-natural-building/">food fo
 <div class="sean-blog-gallery">
   <figure>
     <a href="/assets/images/seanhelvey/2026/farm1.jpeg" target="_blank">
-      <img alt="A crowd standing in a field between two long rows of solar panels, with a crop growing in the open ground between them" src="/assets/images/seanhelvey/2026/farm1.jpeg">
+      <img loading="lazy" decoding="async" alt="A crowd standing in a field between two long rows of solar panels, with a crop growing in the open ground between them" src="/assets/images/seanhelvey/2026/farm1.jpeg">
     </a>
     <figcaption>Crops growing between the panels in Aurora, Oregon</figcaption>
   </figure>

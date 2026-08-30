@@ -9,6 +9,7 @@ permalink: /reinventing-the-wheel/
 categories:
   - Technology
   - 'Web &amp; Mobile'
+tags: []
 ---
 After thinking long and hard about all of the possible technologies that I could use to rebuild my personal website, I surprised even myself by going with WordPress. I had considered just about everything. While responsive design is extremely interesting, and <a title="Getting Started with Rails" href="http://guides.rubyonrails.org/getting_started.html" target="_blank">Getting Started with Rails</a> shows you exactly how to build a blog from the ground up, I chose to go with WordPress for several reasons:
 

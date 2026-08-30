@@ -9,6 +9,7 @@ permalink: /foo-bar-baz/
 categories:
   - Potpourri
   - Technology
+tags: []
 ---
 There you are in your first computer science class. Intimidated by all of the brain power in the room and confused by the professor who is attempting to teach Python, you are afraid to ask questions and seem stupid. She presents an example:
 
@@ -37,7 +38,7 @@ There you are in your first computer science class. Intimidated by all of the br
 Don&#8217;t worry.. After years of computer science coursework and professional experience as a software developer, my eyes still glaze over when people use foo, bar, and baz. Why? People will tell you that these <a title="Placeholder name" href="http://en.wikipedia.org/wiki/Placeholder_name" target="_blank">placeholder names</a> (also referred to as <a title="Metasyntactic variable" href="http://en.wikipedia.org/wiki/Metasyntactic_variable" target="_blank">metasyntactic variables</a>) are meaningless and only used to demonstrate a concept.
 
 <div style="width: 410px" class="wp-caption alignnone">
-  <a href="http://25.media.tumblr.com/fc73c134f49433879e8b1f73f380cf42/tumblr_mta08g0xU01s7zcqdo2_400.gif"><img alt="Confused" src="http://25.media.tumblr.com/fc73c134f49433879e8b1f73f380cf42/tumblr_mta08g0xU01s7zcqdo2_400.gif" width="400" height="224" /></a>
+  <a href="/assets/images/seanhelvey/archived/tumblr-loop.gif"><img loading="lazy" decoding="async" alt="Confused" src="/assets/images/seanhelvey/archived/tumblr-loop.gif" width="400" height="224" /></a>
   
   <p class="wp-caption-text">
     Confused

@@ -1,0 +1,16 @@
+# The three posts the homepage leads with. Order here is the order on the page.
+#
+# Swapping one out is a one-line edit: change the url, rebuild. Nothing else on
+# the site reads this file, and no post carries "featured" front matter, so the
+# posts themselves never need touching.
+#
+# `blurb` is optional. Left out, the post's own subtitle is used instead, and a
+# post with neither shows just its title and date.
+
+- url: /rag-in-context/
+
+- url: /the-mullet-stack/
+
+# No subtitle on this one, so it needs a blurb here or it will show bare.
+- url: /pnw-climate-week/
+  blurb:

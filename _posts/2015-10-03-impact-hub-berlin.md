@@ -10,17 +10,12 @@ categories:
   - Community
   - Life
   - Travel
-tags:
-  - Berlin
-  - Entrepreneurship
-  - Impact
-  - Social
-  - Travel
+tags: [Community, Travel]
 ---
 I hope that Impact Hub Berlin never changes. Members will come and go, superficial improvements may happen over time, but the warm and colorful community there can withstand all of it. To understand this co-working space, you have to know <a href="https://zurich.impacthub.ch/impact-hub-berlin/" target="_blank">its history</a> and the people behind it.
 
 <div id="attachment_1180" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu.jpg"><img class="size-medium wp-image-1180" src="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu-300x112.jpg" alt="Managing Director Nele Kapretz with Angela Merkel " width="300" height="112" srcset="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu-300x112.jpg 300w, /assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu.jpg 860w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu.jpg"><img loading="lazy" decoding="async" class="size-medium wp-image-1180" src="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu-300x112.jpg" alt="Managing Director Nele Kapretz with Angela Merkel " width="300" height="112" srcset="/assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu-300x112.jpg 300w, /assets/images/seanhelvey/2015/10/image-801041-breitwandaufmacher-gtpu.jpg 860w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Managing Director Nele Kapretz with Angela Merkel
@@ -34,7 +29,7 @@ This space was designed by members Margit Sichrovsky and Kim le Roux of <http://
 The &#8220;focus area&#8221; has an incredible little nook and another section for taking naps! The cafe has a secret spot above the kitchen which can only be accessed with a ladder. The phone booth is unique from every one that I&#8217;ve ever seen as is the teams&#8217;s commitment to updating and improving the space. The signage out front was being replaced during my week there.
 
 <div id="attachment_1139" style="width: 235px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024.jpg"><img class="wp-image-1139 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024-225x300.jpg" alt="Member Host Matt Beer" width="225" height="300" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024-225x300.jpg 225w, /assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px"/></a>
+  <a href="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024.jpg"><img loading="lazy" decoding="async" class="wp-image-1139 size-medium" src="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024-225x300.jpg" alt="Member Host Matt Beer" width="225" height="300" srcset="/assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024-225x300.jpg 225w, /assets/images/seanhelvey/2015/09/thumb_IMG_2882_1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px"/></a>
 
   <p class="wp-caption-text">
     Member Host Matt Beer

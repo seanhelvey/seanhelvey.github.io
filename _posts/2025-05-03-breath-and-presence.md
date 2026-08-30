@@ -3,13 +3,13 @@ layout: post
 title:  "Breath & Presence"
 date:   2025-05-03
 permalink: /:title/
+tags: [Meditation]
 ---
-
 I just got back from a Transformational Breath Essentials 6-Day Seminar at <a href="https://theclearingcenter.com/">The Clearing Center</a> in North Fork, CA. The land and people there are amazing! I would highly recommend anyone who is interested to go and check it out. I'm super grateful for people like Eddie Ellner and Juliet Wilkins here in Santa Barbara who have helped me down this path. Over the last several years I have found breathwork to be theraputic, insightful, and a useful guide post toward being more present with sensations and emotions in my body.
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="image9" class="lazyloaded" src="/assets/images/seanhelvey/2025/image9.jpeg">
+    <img loading="lazy" decoding="async" alt="image9" class="lazyloaded" src="/assets/images/seanhelvey/2025/image9.jpeg">
   </figure>
 </div>
 
@@ -17,7 +17,7 @@ Relationships can be challenging for all of us and I've explored many different 
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="image5" class="lazyloaded" src="/assets/images/seanhelvey/2025/image5.jpeg">
+    <img loading="lazy" decoding="async" alt="image5" class="lazyloaded" src="/assets/images/seanhelvey/2025/image5.jpeg">
   </figure>
     <figcaption>
       The Clearing Center
@@ -39,7 +39,7 @@ Story time! For most of my childhood I held pencils in a unique way that everyon
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="grip" class="lazyloaded" src="https://gadgetsin.com/uploads/2019/04/uppercase_nimblegrip_silicone_apple_pencil_grip_1.jpg">
+    <img loading="lazy" decoding="async" alt="grip" class="lazyloaded" src="https://gadgetsin.com/uploads/2019/04/uppercase_nimblegrip_silicone_apple_pencil_grip_1.jpg">
   </figure>
 </div>
 

@@ -10,12 +10,7 @@ categories:
   - Community
   - Life
   - Travel
-tags:
-  - Impact Hub
-  - Prague
-  - Praha
-  - Social Business
-  - Travel
+tags: [Travel]
 ---
 It was impossible for me to take pictures when I first arrived in Praha (Prague). Everything was so magnificent and cohesive, that capturing any little part of it wasn&#8217;t going to do the city justice. This is a incredibly beautiful place. However, it is the people here that make it special.
 

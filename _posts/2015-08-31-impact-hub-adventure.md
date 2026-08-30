@@ -10,19 +10,14 @@ categories:
   - Community
   - Life
   - Travel
-tags:
-  - Abroad
-  - Boulder
-  - Impact Hub
-  - Stockholm
-  - Travel
+tags: [Travel]
 ---
 As I&#8217;ve said <a href="/cross-pollination/" target="_blank">before</a>, I love being a member of Impact Hub Boulder. The incredible people there inspire me every day. However, it&#8217;s time for a new adventure. I&#8217;m off to Europe!
 
 I&#8217;ve decided to spend the month of September exploring other Impact Hubs. I want to set an example for members, encourage collaboration across borders, and raise awareness around the Impact Hub Passport. The Impact Hub Passport is currently being redesigned to allow members to move between different hubs with greater ease.
 
 <div id="attachment_911" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/08/map.png"><img src="/assets/images/seanhelvey/2015/08/map-300x234.png" alt="Hubs on the route" width="300" height="234" class="size-medium wp-image-911" srcset="/assets/images/seanhelvey/2015/08/map-300x234.png 300w, /assets/images/seanhelvey/2015/08/map-1024x797.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2015/08/map.png"><img loading="lazy" decoding="async" src="/assets/images/seanhelvey/2015/08/map-300x234.png" alt="Hubs on the route" width="300" height="234" class="size-medium wp-image-911" srcset="/assets/images/seanhelvey/2015/08/map-300x234.png 300w, /assets/images/seanhelvey/2015/08/map-1024x797.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Hubs on the route
@@ -32,7 +27,7 @@ I&#8217;ve decided to spend the month of September exploring other Impact Hubs. 
 I&#8217;ll be starting out in Stockholm, passing through Berlin, and finishing in San Sebastian. There will be other stops along the way too! (Munich, Prague, Vienna..?) Let me know if you or any of your nerd friends will be attending Nordic.js or <a href="http://rejectjs.org/" target="_blank">Reject.js</a>, as I&#8217;ll be going to both JavaScript conferences.
 
 <div id="attachment_915" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/assets/images/seanhelvey/2015/08/w_greg.jpg"><img src="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg" alt="Impact Hub Boulder" width="300" height="225" class="size-medium wp-image-915" srcset="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg 300w, /assets/images/seanhelvey/2015/08/w_greg.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/seanhelvey/2015/08/w_greg.jpg"><img loading="lazy" decoding="async" src="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg" alt="Impact Hub Boulder" width="300" height="225" class="size-medium wp-image-915" srcset="/assets/images/seanhelvey/2015/08/w_greg-300x225.jpg 300w, /assets/images/seanhelvey/2015/08/w_greg.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Impact Hub Boulder

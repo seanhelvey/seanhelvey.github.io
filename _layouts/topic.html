@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="home">
+
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  <p class="topic-count">
+    {{ page.posts | size }} post{% if page.posts.size != 1 %}s{% endif %}.
+    <a href="/blog.html">All writing &#8594;</a>
+  </p>
+
+  <ul class="post-list">
+    {%- for post in page.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      {% if post.subtitle %}
+        <p class="post-list-subtitle">{{ post.subtitle }}</p>
+      {% else %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+
+</div>

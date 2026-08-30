@@ -1,12 +1,16 @@
+@use "variables" as *;
+
 /**
  * Syntax highlighting styles
  */
 .highlight {
-    background: #fff;
-    @extend %vertical-rhythm;
+    background: var(--code-surface);
+    // Was @extend %vertical-rhythm. A placeholder defined in _base.scss is not
+    // reachable across a module boundary, and this only added a margin.
+    margin-bottom: $spacing-unit * 0.5;
 
     .highlighter-rouge & {
-      background: #eef;
+      background: var(--code-bg);
     }
 
     .c     { color: #998; font-style: italic } // Comment

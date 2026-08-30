@@ -3,8 +3,8 @@ layout: post
 title:  "Elm Events in Colorado"
 date:  2017-11-24-elm-events-in-colorado.md
 permalink: /:title/
+tags: [JavaScript, Community]
 ---
-
 December Elm Hack Night has been cancelled, but Wednesday January 24th is [Beginner's Night](https://www.meetup.com/Front-range-elm/events/245365431/) at Front Range Elm. Please spread the word and bring your friends!
 
 Here are some other Elm events happening in CO over the coming months:

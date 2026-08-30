@@ -3,13 +3,13 @@ layout: post
 title:  "North Coast Men's Gathering"
 date:   2026-07-03
 permalink: /:title/
+tags: [Community]
 ---
-
 This year was my first time attending the <a href="https://www.northcoastmensgathering.org/" target="_blank">North Coast Men's Gathering</a> at the Mattole Camp and Retreat Center in the beautiful lost coast town of Petrolia. Huge thanks to the organizers and participants over the last 33+ years who have contributed to such an incredible event! I was blown away at the quantity and quality of men that came out of the woodwork who might not normally have a chance to connect on a day to day basis around town. Most men's groups I've been a part of in the past have been dogmatic and fixated on ideas around masculinity, while this group was organic and inclusive. The gathering is a <a href="https://www.inkpeople.org/all-dreammakers" target="_blank">DreamMaker project</a> of the Ink People Center for the Arts. 
 
 <div class="sean-blog-image">
   <figure>
-    <img alt="Group photo at the North Coast Men's Gathering" class="lazyloaded" src="/assets/images/seanhelvey/2026/NorthCoastMensGathering2026.JPG">
+    <img loading="lazy" decoding="async" alt="Group photo at the North Coast Men's Gathering" class="lazyloaded" src="/assets/images/seanhelvey/2026/NorthCoastMensGathering2026.JPG">
   </figure>
     <figcaption>
       Not in the back row for once!
