@@ -5,7 +5,7 @@ subtitle: "Men have become the tools of their tools"
 date:   2026-08-02
 permalink: /:title/
 published: True
-tags: [AI]
+tags: [AI, Finance]
 ---
 Michael Pollan has written about everything from mushrooms to apples and corn, but his coevolutionary story of how tulips and humans shaped each other may have been the most prescient given recent market parallels. GPU compute powering crypto for the last decade has spilled over into a bigger boom in language models. From bulbs, to coins, and now tokens. With animal spirits driving markets higher and CEOs blaming artificial intelligence for layoffs, who is using whom? AI, like the apple and corn plants, is gleefully spreading its seed while we prompt for another sweet hit of dopamine.
 

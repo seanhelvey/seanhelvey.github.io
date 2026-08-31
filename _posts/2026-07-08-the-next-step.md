@@ -4,7 +4,7 @@ title:  "The Next Step"
 date:   2026-07-13
 permalink: /:title/
 published: true
-tags: [Career, Permaculture]
+tags: [Career]
 ---
 After 5 years of building software to help social workers support children at <a href="https://kfh.org/" target="_blank">Koinonia Family Services</a>, I am ready for a new adventure! It's been wonderful growing together with the team there through leadership changes, shifts in the field, and evolving technology. My head and heart have been aligned with the mission, and it's been so fulfilling to serve something bigger than myself.
 

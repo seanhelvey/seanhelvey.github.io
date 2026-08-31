@@ -10,7 +10,7 @@ categories:
   - Community
   - Life
   - Technology
-tags: [Python]
+tags: [Python, Community]
 ---
 Over the course of the last week I attended both PyCon in Montreal and <a title="LambdaConf" href="http://www.degoesconsulting.com/lambdaconf/" target="_blank">LamdaConf</a> right here in Boulder. I have always enjoyed using Python, but thanks to <a title="one outstanding professor" href="http://www.coryplock.com/" target="_blank">one outstanding professor</a>, I also have very fond memories of functional programming and lambda calculus from grad school. Both conferences were amazing, and there were similarities between the communities, but these are two fundamentally different styles of programming.
 

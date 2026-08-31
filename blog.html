@@ -21,7 +21,7 @@ description: "Writing by Sean Helvey on software engineering, Python and Django,
   {%- assign tags = site.tags | sort -%}
   <nav class="tag-nav" aria-label="Browse writing by topic">
     <ul>
-      <li><a href="/blog.html" data-topic="" class="is-active">All<span class="tag-nav-count">{{ site.posts | size }}</span></a></li>
+      <li><a href="/blog.html" data-topic="" class="is-active">All posts<span class="tag-nav-count">{{ site.posts | size }}</span></a></li>
       {%- for tag in tags %}
       <li>
         <a href="/topics/{{ tag[0] | slugify }}/" data-topic="{{ tag[0] }}">{{ tag[0] }}<span class="tag-nav-count">{{ tag[1] | size }}</span></a>

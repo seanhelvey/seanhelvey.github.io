@@ -9,7 +9,7 @@ permalink: /pay-as-you-learn/
 categories:
   - Business
   - Finance
-tags: []
+tags: [Finance]
 ---
 Be careful out there, kids! While many repayment plans are available to college graduates today, it is worth considering the implications of postponing interest payments. If you are going to maintain a Partial Financial Hardship (PFH) for the next 20-25 years, then Income Based Repayment (IBR) or Pay As You Earn (PAYE) may be good options for you, but what if you don&#8217;t?
 

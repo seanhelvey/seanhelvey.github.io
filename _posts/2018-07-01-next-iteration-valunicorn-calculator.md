@@ -3,7 +3,7 @@ layout: post
 title:  "Next Iteration of Valunicorn Calculator"
 date:  2018-07-01
 permalink: /:title/
-tags: [JavaScript, Community, Finance]
+tags: [JavaScript, Finance]
 ---
 > "The goal is two-fold: level-up my Elm skills by continuing to maintain and develop a more complex application and add features to a project which people can use to invest sustainably."
 

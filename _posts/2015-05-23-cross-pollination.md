@@ -12,7 +12,7 @@ categories:
   - Entrepreneurship
   - Life
   - Travel
-tags: [Travel]
+tags: [Community, Travel]
 ---
 I love being a member of <a href="http://www.impacthubboulder.com/" target="_blank">Impact HUB Boulder</a>! The community here has helped me grow both personally and professionally. While my experience locally has been amazing, I know that there is more out there, and have put together a letter in anticipation of a stay in Europe this fall. A few members of the leadership team will be passing this along to other Impact HUB directors at gatherings over the coming months:
 

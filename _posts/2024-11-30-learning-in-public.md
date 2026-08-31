@@ -3,7 +3,7 @@ layout: post
 title:  "Learning in Public"
 date:   2024-11-30
 permalink: /:title/
-tags: []
+tags: [DevOps]
 ---
 When I started this blog in 2013 I used WordPress to avoid <a href="/reinventing-the-wheel/">reinventing the wheel</a> before moving over to Jekyll in 2016. I never took the time to set up continuous deployment so would SSH into DreamHost (strong CamelCase theme emerging here) then pull the generated static site from a Git submodule. The added friction was just enough so that I wouldn't post very often.
 

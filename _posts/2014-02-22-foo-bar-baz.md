@@ -9,7 +9,7 @@ permalink: /foo-bar-baz/
 categories:
   - Potpourri
   - Technology
-tags: []
+tags: [Python]
 ---
 There you are in your first computer science class. Intimidated by all of the brain power in the room and confused by the professor who is attempting to teach Python, you are afraid to ask questions and seem stupid. She presents an example:
 

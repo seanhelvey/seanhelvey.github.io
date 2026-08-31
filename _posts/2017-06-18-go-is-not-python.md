@@ -3,7 +3,7 @@ layout: post
 title:  "Go is Not Python"
 date:   2017-06-18-go-is-not-python.md
 permalink: /:title/
-tags: [Python, Leadership]
+tags: [Python]
 ---
 You know Python fairly well, but your manger wants to start using Go "because it is faster". Being the overacheiver that you are, you sacrifice time from your precious weekend to figure out the basics. Take a trivial Python program like this for instance:
 
