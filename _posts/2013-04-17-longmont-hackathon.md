@@ -9,7 +9,7 @@ permalink: /longmont-hackathon/
 categories:
   - Community
   - Life
-tags: []
+tags: [Community]
 ---
 What an experience! I met so many fantastic people and learned a bunch at the Longmont Hackathon this past weekend. Skyline High School was well represented with a team of incredibly gifted young developers, but the star of the show was <a title="14-year-old Jackson Roberts" href="http://www.timescall.com/news/longmont-local-news/ci_23032800/sunset-middle-school-student-wins-first-longmont-hackathon" target="_blank">14-year-old Jackson Roberts</a> who took 1st place with his &#8220;Longmont Events&#8221; application.
 

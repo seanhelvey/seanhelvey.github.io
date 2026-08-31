@@ -9,7 +9,7 @@ permalink: /mouse-trap/
 categories:
   - Technology
   - 'Web &amp; Mobile'
-tags: [JavaScript, DevOps]
+tags: [JavaScript]
 ---
 Inspired by Quick Left&#8217;s Rube Goldberg Hackfest, I set out to build a fancy web application version of the board game &#8220;Mouse Trap&#8221;. This involved setting up a web server using Node.js and Express, hitting the server with a simple iOS app, polling said web server using client side JavaScript, cropping images with Gimp, and working with jQuery.
 

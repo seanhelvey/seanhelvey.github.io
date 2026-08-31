@@ -10,7 +10,7 @@ categories:
   - Community
   - Life
   - Travel
-tags: [Travel]
+tags: [Community, Travel]
 ---
 As I&#8217;ve said <a href="/cross-pollination/" target="_blank">before</a>, I love being a member of Impact Hub Boulder. The incredible people there inspire me every day. However, it&#8217;s time for a new adventure. I&#8217;m off to Europe!
 

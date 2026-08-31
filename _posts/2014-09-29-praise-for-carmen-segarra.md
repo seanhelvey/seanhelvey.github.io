@@ -9,7 +9,7 @@ permalink: /praise-for-carmen-segarra/
 categories:
   - Business
   - Finance
-tags: []
+tags: [Finance]
 ---
 > &#8220;The issues are lack of backbone, transparency, thoroughness and perseverance.&#8221;
 >

@@ -8,7 +8,7 @@ date:   2026-08-25
 permalink: /:title/
 micropost: true
 published: true
-tags: [AI]
+tags: [AI, Python]
 ---
 RAG gets a language model to answer questions from documents it was never trained on, by finding the right passages and pasting them into the prompt. Most of what makes the searching work predates the models, so <a href="https://github.com/seanhelvey/rag-in-context/blob/main/rag.ipynb">this notebook</a> connects it back to ideas that have been around a lot longer.
 
