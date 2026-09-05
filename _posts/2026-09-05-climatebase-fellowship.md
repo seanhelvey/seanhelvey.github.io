@@ -7,9 +7,9 @@ permalink: /:title/
 published: true
 tags: [Climate, Career]
 ---
-I'm excited to share that I've been accepted into Cohort 10 of the <a href="https://climatebase.org/" target="_blank">Climatebase</a> Fellowship! I'm open to a full-time role in climate tech, collaborating with folks on a new venture, or joining any mission-driven team building software. If you are working on any of this, or you know someone who is, I would love to hear about it.
+I'm excited to share that I've been accepted into Cohort 10 of the <a href="https://climatebase.org/" target="_blank">Climatebase</a> Fellowship! I'm open to a full-time role in climate tech, collaborating with folks on a new venture, or joining any mission-driven organization building software. If you are growing your team, or you know someone who is, I would love to hear about it.
 
-One thing I've created in the meantime is <a href="/secondhand-plastic/">Secondhand Plastic</a>, an open-source circular-economy project matching food containers with someone who'll use them instead of recycling.
+<a href="/secondhand-plastic/">Secondhand Plastic</a> is an open-source circular-economy project I recently put into beta, matching food containers with someone who'll use them instead of recycling. I'm hoping to take it further during the program, with help from mentors and the rest of the cohort.
 
 <div class="sean-blog-gallery sean-blog-gallery-stack in-measure">
   <figure>
@@ -20,7 +20,7 @@ One thing I've created in the meantime is <a href="/secondhand-plastic/">Secondh
   </figure>
 </div>
 
-The <a href="/food-forests-and-natural-building/">food forests course</a> I attended at Occidental Arts and Ecology Center in Sonoma County earlier this year was part of the inspiration that has led me down this path. Lyla June spoke on the first day about indigenous regenerative systems, and said that our big brains and hands are meant to serve Mother Earth, not dominate it.
+Part of what led me down this path was a <a href="/food-forests-and-natural-building/">food forests course</a> at Occidental Arts and Ecology Center in Sonoma County earlier this year. Lyla June spoke on the first day about indigenous regenerative systems, and said that our big brains and hands are meant to serve Mother Earth, not dominate it.
 
 I also went to <a href="/pnw-climate-week/">PNW Climate Week</a> wondering where I might fit. I saw everything from VR with conservation to GIS in city planning and solar arrays on farms. I loved what Sherrie Villmark of Community Energy Project said when I told her about my work building software for foster families: the best way to help children is by helping the planet.
 
