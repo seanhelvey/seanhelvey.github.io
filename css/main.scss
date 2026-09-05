@@ -69,6 +69,13 @@
   }
 }
 
+// Figures take the full column by design (see the reading-measure note below).
+// This opts one back into the 38em text measure so it shares both edges with
+// the prose instead of overhanging it on the right.
+.sean-blog-gallery.in-measure {
+  max-width: 38em;
+}
+
 // One image per row, for artwork worth seeing at full column width.
 .sean-blog-gallery-stack {
   grid-template-columns: 1fr;
@@ -345,6 +352,30 @@
   .sean-blog-gallery figcaption {
     font-size: 14px;
   }
+
+  // The mat above is for diagrams, which arrive on their own paper colour. A
+  // photograph brings its own edges and subject, so it wants neither that nor
+  // the gallery's 4:3 crop. It also needs the reading measure: text and the
+  // hand-off button are capped at 38em while galleries keep the full column,
+  // so a photo's hard edge would overhang them on the right.
+  .sean-blog-gallery.is-photo {
+    img {
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+      aspect-ratio: auto;
+      object-fit: contain;
+    }
+  }
+
+  // .field-notes centres a 480px box in the 740px column, so it starts ~130px
+  // in while the text starts at 0. Everything else here shares the 38em
+  // measure, so let the callout share it too.
+  .field-notes {
+    max-width: 38em;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 // The hand-off, and the whole reason the post exists. Full width and loud,
@@ -374,7 +405,9 @@
   .aside {
     display: block;
     margin-top: 0.8em;
-    font-size: 14px;
+    // 14px sat well below the 17px body and read as fine print, which buried
+    // the source link the line exists to carry.
+    font-size: 16px;
     text-align: center;
     color: var(--strong-muted);
   }

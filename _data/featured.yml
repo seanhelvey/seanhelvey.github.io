@@ -7,10 +7,8 @@
 # `blurb` is optional. Left out, the post's own subtitle is used instead, and a
 # post with neither shows just its title and date.
 
+- url: /climatebase-fellowship/
+
 - url: /rag-in-context/
 
 - url: /the-mullet-stack/
-
-# No subtitle on this one, so it needs a blurb here or it will show bare.
-- url: /pnw-climate-week/
-  blurb:
