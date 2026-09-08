@@ -61,7 +61,9 @@ The three posts on the homepage are curated in `_data/featured.yml`, not taken f
 
 `blurb` in that file is optional and falls back to the post's `subtitle`. A post with neither shows title and date only.
 
-"Currently looking for my next role" in the hero links to The Next Step. That post is a status, not an essay, which is why it sits there instead of among the featured three.
+The hero link points at `about.html`. It used to point at The Next Step, which went stale as that post aged; the post is still reachable, because the Climatebase one links to it and sits first in `featured.yml`. The link text deliberately avoids "here" and "more", which the "Start here" heading and the hero sentence already use, and avoids plain "About", which the nav uses.
+
+The hero copy is short on purpose. Longer versions were tried and each one either read as a written-out bio or leaned on the foster care work in a way that made it a credential. The concrete material lives on `about.html` and in the posts, where there is room for it.
 
 ## Deploy
 
